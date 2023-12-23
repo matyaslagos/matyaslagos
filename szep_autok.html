@@ -3,37 +3,49 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-  body {padding-top: 2pt;
-          padding-left: 0px;
-          padding-right: 0px;
-          margin-left: 20pt;
-          margin-right: 20pt;
+  body {
+		padding-top: 2pt;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 20pt;
+    margin-right: 20pt;
 	}
-  h1 {font-size: 20pt;
-        color: rgba(0, 0, 0, 0.6);
+  h1 {
+		font-size: 20pt;
+    color: rgba(0, 0, 0, 0.6);
 	}
-  h2 {text-align: center;
+  h2 {
+		text-align: center;
 	}
-  h4 {margin-bottom: -8pt;
-      font-size: 13pt;
+  h4 {
+		margin-bottom: -8pt;
+    font-size: 13pt;
 	}
-  p {text-align: left;
-	   font-size: 13pt;
+  p {
+		text-align: left;
+	  font-size: 13pt;
   }
-	img {width: 48%;
-		border: 2pt solid white;
+	img {
+		width: 100%;
 	}
+	.gallery {
+	  display: grid;
+	  grid-template-columns: repeat(2, 100fr);
+	  grid-template-rows: repeat(6, 40%);
+	  grid-gap: 1vw;
+	}
+
 </style>
 </head>
 <body>
 <h1>Lagos Mátyás weboldala <a href="index.html" style="color:rgba(10, 110, 180, 0.5); font-size:17pt"><em>^főoldal</em></a> <a href="fenykepek.html" style="color:rgba(10, 110, 180, 0.5); font-size:17pt"><em>^fényképek</em></a></h1>
 
-<h2 style="margin-bottom:20pt" class="c">Szép autók</h2>
+<h2 style="margin-bottom:20pt">Szép autók</h2>
 <div style="text-align:center;">
-	<div style="display:inline-block; text-align:left;  width:100%; padding-left:1%">
+<div class="gallery">
 	<img src="https://i.ibb.co/G2zGvFb/IMG-5551.jpg" alt="IMG-5551" border="0">
 	<img src="https://i.ibb.co/rdRwvH8/IMG-5421.jpg" alt="IMG-5421" border="0">
-
+	
 	<img src="https://i.ibb.co/NKvD01k/IMG-5359.jpg" alt="IMG-5359" border="0">
 	<img src="https://i.ibb.co/DVTCgns/IMG-5419.jpg" alt="IMG-5419" border="0">
 
@@ -45,10 +57,9 @@
 
 	<img src="https://i.ibb.co/M2fn4CH/IMG-5376.jpg" alt="IMG-5376" border="0">
 	<img src="https://i.ibb.co/MghjTbW/IMG-5313.jpg" alt="IMG-5313" border="0">
-	<div style="text-align:left">
+
 	<img src="https://i.ibb.co/r4JYPJp/IMG-5318.jpg" alt="IMG-5318" border="0">
-	</div>
-	</div>
+</div>
 </div>
 </body>
 </html>
