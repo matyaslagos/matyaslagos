@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"
+	 charset="UTF-8">
+<style>
+  body {
+		padding-top: 2pt;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 20pt;
+    margin-right: 20pt;
+	}
+  h1 {
+		font-size: 20pt;
+    color: rgba(0, 0, 0, 0.3);
+	}
+  h2 {
+		text-align: center;
+	}
+  h4 {
+		margin-bottom: -8pt;
+    font-size: 13pt;
+	}
+	
+  .card-text {
+		font-family: courier;
+		text-align: left;
+	  font-size: 14pt;
+		line-height: 16.5pt;
+		color: #342e2b;
+		text-shadow: 0px 0px 1px #979797;
+  }
+	
+	img {
+		max-width: 90vw;
+		max-height: 500px;
+	}
+	
+	.gallery {
+	  display: grid;
+	  grid-template-columns: repeat(2, 49%);
+	  grid-template-rows: repeat(6);
+	  grid-gap: 1vw;
+	}
+	.date {
+		padding-bottom: 10pt;
+	}
+
+	.has-bg{
+	  background-repeat: no-repeat;
+	  background-position: center center;
+	  background-size: cover;
+	}
+	.bg-paper{
+	  background-image: url(Assets/paper-texture.png);
+	}
+	
+	.card {
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		box-shadow: 0px 4px 6px 0 rgba(0,0,0,0.2);
+		transition: 0.5s;
+		max-width: 400px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 50px;
+		justify-content: center;
+		align-items: center;
+	}
+	.card:hover{
+	  box-shadow: 0px 4px 10px 0 rgba(0,0,0,0.2);
+		transform: scale(1.01);
+	}
+	
+	.container{
+		padding-top: 10px;
+		padding-bottom: 8px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	.disclaimer{
+		width: 400px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 60px;
+		text-align: center;
+		font-style: italic;
+		font-size: 11pt;
+		color: rgba(0, 0, 0, 0.9);
+		line-height: 12pt;
+	}
+</style>
+</head>
+<body>
+<h1><a href="..\index.html" style="color:rgba(25,143,137,0.9)">matyaslago<span style="letter-spacing:-0.7pt">s</span><span style="letter-spacing:1pt">.</span>net</a></h1>
+
+<div class="card has-bg bg-paper">
+	<div class="container">
+  <p class="card-text">This way, all your files live on one drive, while all the operating system and software component files live on the C: drive --- simply and elegantly separated.</p>
+  </div>
+</div>
+
+<div class="disclaimer">
+	<p>Minden nap egy mondat a <a href="https://www.howtogeek.com/15677/zen-and-the-art-of-file-and-folder-organization/">Zen and the Art of File and Folder Organization</a> című cikkből (nem sorrendben).</p>
+</div>
+
+</body>
+</html>
