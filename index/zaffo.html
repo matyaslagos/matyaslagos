@@ -1,39 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"
-	 charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+			charset="UTF-8">
+<link rel="stylesheet" href="..\theme.css">
+
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
-	
-  body {
-		padding-top: 2pt;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 20pt;
-    margin-right: 20pt;
-		font-family: 'STIX Two Text', serif;
-	}
-  h1 {
-		font-size: 20pt;
-    color: rgb(25,143,137,0.6);
-		font-weight: 600;
-	}
-	.main-link {
-		color: rgb(25,143,137,0.6);
-	}
-	.main-link:hover {
-		color: rgb(25,143,137,1)
-	}
-	
-  h2 {
-		text-align: center;
-	}
-  h4 {
-		margin-bottom: -8pt;
-    font-size: 13pt;
-	}
-	
   .card-text {
 		font-family: courier;
 		text-align: left;
@@ -43,21 +15,6 @@
 		text-shadow: 0px 0px 1px #979797;
   }
 	
-	img {
-		max-width: 90vw;
-		max-height: 500px;
-	}
-	
-	.gallery {
-	  display: grid;
-	  grid-template-columns: repeat(2, 49%);
-	  grid-template-rows: repeat(6);
-	  grid-gap: 1vw;
-	}
-	.date {
-		padding-bottom: 10pt;
-	}
-
 	.has-bg{
 	  background-repeat: no-repeat;
 	  background-position: center center;
@@ -101,12 +58,20 @@
 		font-style: italic;
 		font-size: 11pt;
 		color: rgba(0, 0, 0, 0.9);
-		line-height: 12pt;
+		line-height: 12.5pt;
 	}
 </style>
+
+<script>
+var tempDiv = $('#tempDiv');
+tempDiv.load("Assets/zaffo.txt");
+var html = tempDiv.find('#theParagraphId').html();
+$('#text').html(html);
+</script>
+ 
 </head>
 <body>
-<h1><a href="..\index.html" class="main-link">matyaslagos.net</a></h1>
+<div class="site-title"><a class="title-link" href="..\index.html">matyaslagos.net</a></div>
 
 <div class="card has-bg bg-paper">
 	<div class="container">
@@ -117,6 +82,10 @@
 <div class="disclaimer">
 	<p>Minden nap egy idézet a <a href="https://www.howtogeek.com/15677/zen-and-the-art-of-file-and-folder-organization/">Zen and the Art of File and Folder Organization</a> című cikkből.</p>
 </div>
+
+<div id="tempDiv"></div>
+<p id="text"></p>
+
 
 </body>
 </html>
