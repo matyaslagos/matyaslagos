@@ -8,18 +8,25 @@
 
 body {
 	padding-top: 2pt;
-  max-width: 800pt;
   margin-left: 20pt;
   margin-right: 20pt;
 	font-family: 'STIX Two Text', serif;
 }
 
-/* Homepage and title: */
+/* Main title */
 .site-title {
 	font-size: 20pt;
 	font-weight: 600;
 	padding-top: 10pt;
 }
+.title-link {
+	color: rgb(25,143,137,0.7);
+}
+.title-link:hover {
+	color: rgb(25,143,137);
+}
+
+/* Homepage menu */
 .home-menu {
 	line-height: 22pt;
 }
@@ -28,4 +35,13 @@ body {
   font-size: 14pt;
   font-weight: 500;
   padding-right: 5pt;
+}
+
+/* Page title */
+.page-title {
+	text-align: center;
+	font-weight: 500;
+	font-size: 18pt;
+	padding-bottom: 30pt;
+	padding-top: 30pt;
 }
