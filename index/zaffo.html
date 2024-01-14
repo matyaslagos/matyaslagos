@@ -63,19 +63,16 @@
 </style>
 
 <script>
-var tempDiv = $('#tempDiv');
-tempDiv.load("Assets/zaffo.txt");
-var html = tempDiv.find('#theParagraphId').html();
-$('#text').html(html);
+	const d = new Date();
 </script>
- 
+
 </head>
 <body>
 <div class="site-title"><a class="title-link" href="..\index.html">matyaslagos.net</a></div>
 
 <div class="card has-bg bg-paper">
 	<div class="container">
-  <p class="card-text">You will always have files that don't play nice with your organizational rationale, and can't be filed in only one place. They demand to exist in two places.</p>
+  <p id="quote" class="card-text">You will always have files that don't play nice with your organizational rationale, and can't be filed in only one place. They demand to exist in two places.</p>
   </div>
 </div>
 
@@ -83,9 +80,13 @@ $('#text').html(html);
 	<p>Minden nap egy idézet a <a href="https://www.howtogeek.com/15677/zen-and-the-art-of-file-and-folder-organization/">Zen and the Art of File and Folder Organization</a> című cikkből.</p>
 </div>
 
-<div id="tempDiv"></div>
-<p id="text"></p>
+<button type="button"
+onclick='document.getElementById("quote").innerHTML = d.getFullYear()'>
+Click me to hide the quote above.</button>
 
+<p id="demo"></p>
+
+<embed src="Assets/zaffo.txt">
 
 </body>
 </html>
