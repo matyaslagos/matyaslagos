@@ -37,10 +37,22 @@
 		margin-top: 50px;
 		justify-content: center;
 		align-items: center;
+		
+		animation: fadeInAnimation ease 7s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
 	}
 	.card:hover{
 	  box-shadow: 0px 4px 10px 0 rgba(0,0,0,0.2);
 		transform: scale(1.01);
+	}
+	@keyframes fadeInAnimation {
+	    0% {
+	        opacity: 0;
+	    }
+	    100% {
+	        opacity: 1;
+	     }
 	}
 	
 	.container{
@@ -60,20 +72,77 @@
 		font-size: 11pt;
 		color: rgba(0, 0, 0, 0.9);
 		line-height: 12.5pt;
+		
+		animation: fadeInAnimation ease 7s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}
+	@keyframes fadeInAnimation {
+	    0% {
+	        opacity: 0;
+	    }
+	    100% {
+	        opacity: 1;
+	     }
 	}
 </style>
-
-<script>
-	const d = new Date();
-</script>
 
 </head>
 <body>
 <div class="site-title"><a class="title-link" href="..\index.html">matyaslagos.net</a></div>
 
+<!--
 <div class="card has-bg bg-paper">
 	<div class="container">
   <p id="quote" class="card-text">You will always have files that don't play nice with your organizational rationale, and can't be filed in only one place. They demand to exist in two places.</p>
+  </div>
+</div>
+-->
+
+<script>
+        // URL of the text file
+        const fileUrl = 'https://raw.githubusercontent.com/matyaslagos/matyaslagos.github.io/main/index/Assets/zaffo.txt';
+
+        // Function to get current day of the year
+        function getDayOfYear() {
+            const now = new Date();
+            const start = new Date(now.getFullYear(), 0, 0);
+            const diff = now - start;
+            const oneDay = 1000 * 60 * 60 * 24;
+            const day = Math.floor(diff / oneDay);
+            return day;
+        }
+
+        // Fetch the text file
+        fetch(fileUrl)
+            .then(response => {
+                // Check if response is successful
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                // Return the text of the response
+                return response.text();
+            })
+            .then(text => {
+                // Split text into lines
+                const lines = text.split('\n');
+                // Get the current day of the year
+                const currentDay = getDayOfYear();
+                // Calculate the index of the line to display
+                const lineIndex = currentDay % lines.length;
+                // Get the line to display
+                const lineToDisplay = lines[lineIndex];
+                // Print the line into the body of the website
+                document.getElementById('output').innerText = lineToDisplay;
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+            });
+</script>
+
+<div class="card has-bg bg-paper">
+	<div class="container">
+  <p id="output" class="card-text"></p>
   </div>
 </div>
 
@@ -81,13 +150,14 @@
 	<p>Minden nap egy idézet a <a href="https://www.howtogeek.com/15677/zen-and-the-art-of-file-and-folder-organization/">Zen and the Art of File and Folder Organization</a> című cikkből.</p>
 </div>
 
-<button type="button"
-onclick='document.getElementById("quote").innerHTML = d.getFullYear()'>
-Click me to hide the quote above.</button>
 
-<p id="demo"></p>
+</body>
+</html>
 
-<embed src="Assets/zaffo.txt">
+
+</body>
+</html>
+
 
 </body>
 </html>
