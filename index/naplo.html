@@ -28,6 +28,14 @@
 		line-height: 22pt;
 	}
 </style>
+
+<script>
+	function enlargeImage(imageId) {
+		var image = document.getElementById(imageId);
+		image.style = "height:90vh;"
+	}
+</script>
+
 </head>
 <body>
 <div class="site-title"><a class="title-link" href="..\index.html">matyaslagos.net</a></div>
@@ -37,10 +45,18 @@
 <div class="stream">
 
 <div class="post">
-	<img src="https://i.ibb.co/SxMN4vw/2024-01-25-zoknik-tura-utan.png" alt="2024-01-25-zoknik-tura-utan" style="max-width:250px"><br>
+	<img id="77" src="https://i.ibb.co/SxMN4vw/2024-01-25-zoknik-tura-utan.png" alt="2024-01-25-zoknik-tura-utan" style="max-width:250px"><br>
 	<span class="date">2024-01-25</span><br>
 	Zoknik túra után
 </div>
+
+<!--
+<div class="post">
+	<img id="77" src="https://i.ibb.co/SxMN4vw/2024-01-25-zoknik-tura-utan.png" alt="2024-01-25-zoknik-tura-utan" style="max-width:250px" onclick="enlargeImage(this.id)"><br>
+	<span class="date">2024-01-25</span><br>
+	Zoknik túra után
+</div>
+-->
 
 <div class="post">
 	<img src="https://i.ibb.co/V9mrnW8/2024-01-25-letort-fadarab-belseje-i.png" alt="2024-01-25-letort-fadarab-belseje-i" style="max-height:250px"><br>
