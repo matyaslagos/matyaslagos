@@ -26,7 +26,7 @@ Well, if all you ever want to do with the files you own is to locate and open th
 Often it's not convenient, speedy or even possible to utilize your desktop search software to find what you want.
 <strong>It doesn't work 100% of the time</strong>, or you may not even have it installed.
 Sometimes it's just plain faster to go straight to the file you want, if you know it's in a particular sub-folder, rather than trawling through hundreds of search results.
-- <strong>Find groups of similar files</strong> (e.g. all your "work" files, all the photos of your Europe holiday in 2008, all your music videos, all the MP3s from Dark Side of the Moon, all your letters you wrote to your wife, all your tax returns)
+&#x2022; <strong>Find groups of similar files</strong> (e.g. all your "work" files, all the photos of your Europe holiday in 2008, all your music videos, all the MP3s from Dark Side of the Moon, all your letters you wrote to your wife, all your tax returns)
 Clever naming of the files will only get you so far.
 Sometimes it's the date the file was created that's important, other times it's the file format, and other times it's the purpose of the file.
 How do you name a collection of files so that they're easy to isolate based on any of the above criteria?
@@ -164,7 +164,7 @@ Anyone who considers themselves serious about being organized needs instant acce
 <strong>Case Study -- An Organized PC</strong>
 Very minimal.
 - <strong>Data</strong> contains files from the rest of the world (can be thought of as "public" files, usually downloaded from the Net)
-- <strong>Humour</strong>:  Jokes, funnies (those emails that we all receive)
+- <strong>Humour</strong>: Jokes, funnies (those emails that we all receive)
 (all pretty self-explanatory)
 Again, all pretty self-explanatory (if you're a geek)
 - <strong>From Others</strong>:  Usually letters that other people (friends, family, etc) have written to me
