@@ -133,7 +133,7 @@
                 // Get the line to display
                 const lineToDisplay = lines[lineIndex];
                 // Print the line into the body of the website
-                document.getElementById('output').innerText = lineToDisplay;
+                document.getElementById('output').innerHTML = lineToDisplay;
             })
             .catch(error => {
                 console.error('There was a problem with the fetch operation:', error);
