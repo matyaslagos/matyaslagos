@@ -25,7 +25,7 @@ On the face of it, why would anyone bother to take the time to organize their ha
 Well, if all you ever want to do with the files you own is to locate and open them individually (for listening, editing, etc), then there's no reason to ever bother doing one scrap of organization.
 Often it's not convenient, speedy or even possible to utilize your desktop search software to find what you want.
 <strong>It doesn't work 100% of the time</strong>, or you may not even have it installed.
-Sometimes its just plain faster to go straight to the file you want, if you know it's in a particular sub-folder, rather than trawling through hundreds of search results.
+<strong>Sometimes</strong> it's just plain faster to go straight to the file you want, if you know it's in a particular sub-folder, rather than trawling through hundreds of search results.
 - <strong>Find groups of similar files</strong> (e.g. all your "work" files, all the photos of your Europe holiday in 2008, all your music videos, all the MP3s from Dark Side of the Moon, all your letters you wrote to your wife, all your tax returns)
 Clever naming of the files will only get you so far.
 Sometimes it's the date the file was created that's important, other times it's the file format, and other times it's the purpose of the file.
