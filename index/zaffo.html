@@ -8,7 +8,7 @@
 
 <style>
   .card-text {
-		font-family: courier;
+		font-family: Courier;
 		text-align: left;
 	  font-size: 13pt;
 		line-height: 17pt;
@@ -51,22 +51,6 @@
 		justify-content: center;
 		align-items: center;
 		box-shadow: 0px 4px 10px 0 rgba(0,0,0,0.2);
-		
-		/* animation: pulse ease 10s infinite; */
-	}
-	.card:hover{
-	}
-	@keyframes pulse {
-		0% {
-			box-shadow: 0px 4px 6px 0 rgba(0,0,0,0.2);
-		}
-		50% {
-		  box-shadow: 0px 4px 15px 0 rgba(0,0,0,0.2);
-			transform: scale(1.02);
-		}
-		100% {
-			box-shadow: 0px 4px 6px 0 rgba(0,0,0,0.2);
-		}
 	}
 	
 	.container{
@@ -74,6 +58,18 @@
 		padding-bottom: 12px;
 		padding-left: 28px;
 		padding-right: 25px;
+	}
+	
+	.counter {
+		font-family: Courier;
+		text-align: right;
+	  font-size: 11pt;
+		line-height: 12pt;
+		color: rgb(239, 227, 225, 0.5); /*rgb(212, 202, 202, 0.7)*/
+		text-shadow: 0px 0px 0.3px #979797;
+		position: absolute;
+		right: 4.5pt;
+		bottom: -9pt;
 	}
 	
 	.disclaimer{
@@ -102,7 +98,7 @@
 -->
 
 <script>
-        // URL of the text file
+				// URL of the text file
         const fileUrl = 'https://raw.githubusercontent.com/matyaslagos/matyaslagos.github.io/main/index/Assets/zaffo.txt';
 
         // Function to get current day of the year
@@ -129,13 +125,19 @@
                 // Split text into lines
                 const lines = text.split('\n');
                 // Get the current day of the year
-                const currentDay = getDayOfYear();
+                const startingDate = new Date('2024-01-10');
+                const currentDate = new Date();
+                const millisecondsPerDay = 1000 * 60 * 60 * 24;
+                const daysPassed = Math.floor((currentDate - startingDate) / millisecondsPerDay);
                 // Calculate the index of the line to display
-                const lineIndex = currentDay % lines.length;
+                const lineIndex = daysPassed % lines.length;
                 // Get the line to display
                 const lineToDisplay = lines[lineIndex];
                 // Print the line into the body of the website
                 document.getElementById('output').innerHTML = lineToDisplay;
+								// Add 1 to get the line number and display it as count
+								const lineNo = lineIndex + 1
+								document.getElementById('count').innerText = lineNo + "/172";
             })
             .catch(error => {
                 console.error('There was a problem with the fetch operation:', error);
@@ -147,6 +149,7 @@
 <div class="card has-bg bg-paper">
 	<div class="container">
   <p id="output" class="card-text"></p>
+	<p id="count" class="counter"></p>
   </div>
 </div>
 

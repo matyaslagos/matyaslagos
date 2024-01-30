@@ -1,24 +1,24 @@
 Is your desktop a paragon of neatness, or is it overflowing with so many icons that you're scared to look at it?
 <strong>Signs that Your Computer is Poorly Organized</strong>
 If your computer is a mess, you're probably already aware of it.
-- Your Desktop has over 40 icons on it
-- "My Documents" contains over 300 files and 60 folders, including MP3s and digital photos
-- You can't find programs in the out-of-control list of programs in your Start Menu
-- You save all your Word documents in one folder, all your spreadsheets in a second folder, etc
-- Any given file that you're looking for may be in any one of four different sets of folders
+&#x2022; Your Desktop has over 40 icons on it
+&#x2022; "My Documents" contains over 300 files and 60 folders, including MP3s and digital photos
+&#x2022; You can't find programs in the out-of-control list of programs in your Start Menu
+&#x2022; You save all your Word documents in one folder, all your spreadsheets in a second folder, etc
+&#x2022; Any given file that you're looking for may be in any one of four different sets of folders
 The organization principles described in this article apply equally to all computer systems.
 Everyone has their own favorite methodology of organizing and filing, and it's all too easy to get into "My Way is Better than Your Way" arguments.
-The reality is that there <underline>is</underline> no perfect way of getting things organized.
+The reality is that there <span class="underlined">is</span> no perfect way of getting things organized.
 When I wrote this article, I tried to keep a generalist and objective viewpoint.
 I consider myself to be unusually well organized (to the point of obsession, truth be told), and I've had 25 years experience in collecting and organizing files on computers. So I've got a lot to say on the subject.
-But the tips I have described here are only <underline>one way</underline> of doing it.
+But the tips I have described here are only <span class="underlined">one way</span> of doing it.
 Hopefully some of these tips will work for you too, but please don't read this as any sort of "right" way to do it.
 At the end of the article we'll be asking you, the reader, for your own organization tips.
 <strong>Why Bother Organizing At All?</strong>
 For some, the answer to this question is self-evident.
 And yet, in this era of powerful desktop search software (the search capabilities built into the Windows Vista and Windows 7 Start Menus, and third-party programs like Google Desktop Search), the question does need to be asked, and answered.
 I have a friend who puts every file he ever creates, receives or downloads into his <strong>My Documents</strong> folder and doesn't bother filing them into subfolders at all.
-He relies on the search functionality built into his Windows operating system to help him find whatever he's looking for.
+He relies on the search function&shy;ality built into his Windows operating system to help him find whatever he's looking for.
 And he always finds it. He's a Search Samurai.
 For him, filing is a waste of valuable time that could be spent enjoying life! It's tempting to follow suit.
 On the face of it, why would anyone bother to take the time to organize their hard disk when such excellent search software is available?
@@ -54,8 +54,8 @@ You may decide that the highest-level breakdown of your files is based on the "s
 In other words, who created the files.
 You could have "Files created by ME (business or personal)", "Files created by people I know (family, friends, etc)", and finally "Files created by the rest of the world (MP3 music files, downloaded or ripped movies or TV shows, software installation files, gorgeous desktop wallpaper images you've collected, etc)".
 This system happens to be the one I use myself.
-See below:<img>
-- <strong>Data</strong> is the rest of the world
+See below:<br><img class="embedded-img" src="">
+&#x2022; <strong>Data</strong> is the rest of the world
 Each folder will present its own particular set of requirements for further sub-organization.
 For example, you may decide to organize your music collection into sub-folders based on the artist's name, while your digital photos might get organized based on the date they were taken. It can be different for every sub-folder!
 Another strategy would be based on "currentness".
@@ -84,7 +84,7 @@ The name of the folder is not important, but make it a single, brief word.
 Once you've decided where your files should go, then put all your files in there --- Everything!
 Completely disregard the standard, default folders that are created for you by the operating system ("My Music", "My Pictures", etc).
 In fact, you can actually relocate many of those folders into your own structure (more about that below, in tip #6).
-Here's a screenshot of a nicely organized C: drive, where all user files are located within the \Files folder:<img>
+Here's a screenshot of a nicely organized C: drive, where all user files are located within the \Files folder:<br><img class="embedded-img" src="">
 <strong>Tip #4.  Use Sub-Folders</strong>
 Any organizational system you decide upon (see tip #1) will require that you create sub-folders for your files.
 Get used to creating folders on a regular basis.
@@ -97,7 +97,7 @@ If you notice yourself creating a sub-folder to hold only one file, then you've 
 Those ones you can leave where they are.
 But there's a simple solution:  Move the folders you care about into your own folder structure!
 Moving the folders is easy.
-Here's a screenshot of the default <strong>My Music</strong> folder being moved to my custom personal folder (<strong>Mark</strong>):<img>
+Here's a screenshot of the default <strong>My Music</strong> folder being moved to my custom personal folder (<strong>Mark</strong>):<br><img class="embedded-img" src="">
 <strong>Tip #7.  Name Files and Folders Intelligently</strong>
 <strong>Tip #8.  Watch Out for Long Filenames</strong>
 If you need to call a file <strong>Johnson Sales Figures March 2009.xls</strong> (which might happen to live in the same folder as <strong>Abercrombie Budget Report 2008.xls</strong>), then you might want to create some sub-folders so that the first file could be simply called <strong>March.xls</strong>, and living in the <strong>Clients\Johnson\Sales Figures\2009</strong> folder.
@@ -112,14 +112,14 @@ Just because it's correctly filed doesn't mean it's easy to get to.
 Most unsatisfactory.
 Grrrrr!
 In fact, you can create a dozen such icons and scatter them all over your hard disk.
-Consider the following two icons:<img>
+Consider the following two icons:<br><img class="embedded-img" src="">
 You will always have files that don't play nice with your organizational rationale, and can't be filed in only one place. They demand to exist in two places.
 The cool part is that the original files stay where they are, safe forever in their perfectly organized location.
 So your collection of most often-opened files can --- and should --- become a collection of shortcuts!
 It should be easy to see by now that shortcuts are designed for one single purpose:  To make accessing your files more convenient.
 Shortcuts allow us to invent a golden rule of file and folder organization: <em>"Only ever have one copy of a file --- never have two copies of the same file. Use a shortcut instead."</em> (This rule doesn't apply to copies created for backup purposes, of course!)
 There are also lesser rules, like "don't move a file into your work area --- create a shortcut there instead", and "any time you find yourself frustrated with how long it takes to locate a file, create a shortcut to it and place that shortcut in a convenient location."
-Right-drag (drag with the right mouse button) the file from the source folder to the destination folder.  When you let go of the mouse button at the destination folder, a menu pops up:<img>
+Right-drag (drag with the right mouse button) the file from the source folder to the destination folder.  When you let go of the mouse button at the destination folder, a menu pops up:<br><img class="embedded-img" src="">
 Hopefully you always have the original installation media (or downloaded set-up file) kept somewhere safe, and can thus reinstall your software at any time.
 If it's suggesting that you save the file into the same folder as the software itself, then definitely don't follow that suggestion. File it in your own folder!
 <strong>Tip #11.  Organize Files Based on Purpose, Not on File Type</strong>
@@ -127,7 +127,7 @@ If you have, for example a folder called <strong>Work\Clients\Johnson</strong>, 
 In other words, whatever organizational system you create, apply it to every computer that you can.
 So where should you put this folder, which, almost by definition, lives outside the structure of the rest of your filing system?
 The last thing you want to be doing is checking multiple folders to see all your current tasks and projects.
-This keeps your desktop uncluttered and Zen-like:<img>(the Inbox folder is in the bottom-right corner)
+This keeps your desktop uncluttered and Zen-like:<br><img class="embedded-img" src=""><br>(the Inbox folder is in the bottom-right corner)
 You may continue to put files in there, but you'll be scared to look at it, fearing the "out of control" feeling that all overworked, chaotic or just plain disorganized people regularly feel.
 Scan the folder regularly for files that you have completed working on and are ready for filing. File them immediately.
 Make it a source of pride to keep the number of files in this folder as small as possible.
@@ -137,22 +137,22 @@ If you know that a particular file has been in the folder for more than, say, si
 Did you know that it's actually possible to store your files on the D: drive and yet access them as if they were on the C: drive?
 The Windows Start Menu is usually one of the messiest parts of any Windows computer.
 Thankfully we can avoid this chaos with useful operating system features like Quick Launch, the Superbar or pinned start menu items.
-Below is an example of one such structure:<img>
-<strong>Tip #20.  <underline>Keep</underline> Your Start Menu Tidy</strong>
+Below is an example of one such structure:<br><img class="embedded-img" src="">
+<strong>Tip #20.  <span class="underline">Keep</span> Your Start Menu Tidy</strong>
 Every time you install a new piece of software, the icons that get created will almost certainly violate your organizational structure.
-In an ideal world, your C:\ folder should look like this (on Windows 7):<img>
+In an ideal world, your C:\ folder should look like this (on Windows 7):<br><img class="embedded-img" src="">
 Hiding them prevents you from accidentally messing with them, and enhances your sense of order and well-being when you look at your C: drive folder.
 The Desktop is probably the most abused part of a Windows computer (from an organization point of view).
 Application icons (Word, Internet Explorer, etc) are often found on the Desktop, but it's unlikely that this is the optimum place for them.
-In an ideal world, it might look like this:<img>
+In an ideal world, it might look like this:<br><img class="embedded-img" src="">
 Then, the next time you glance at the folder, you won't have to remember whether that file was supposed to be there or not, because you won't see it at all!
 <strong>Tip #27.  Try to Minimize the Number of Folders that Contain Both Files and Sub-folders</strong>
-The folder at the top of the list, _Misc, contains random photos that didn't deserve their own dedicated folder:<img>
+The folder at the top of the list, _Misc, contains random photos that didn't deserve their own dedicated folder:<br><img class="embedded-img" src="">
 In the meantime have you upgraded your computer and now have 500 Gigabytes of space you don't know what to do with? If so, isn't it time you tidied up that stack of disks and filed them into your gorgeous new folder structure?
 So what are you waiting for?  Bite the bullet, copy them all back onto your computer, file them in their appropriate folders, and then back the whole lot up onto a shiny new 1000Gig external hard drive!
 <strong>Useful Folders to Create</strong>
 This next section suggests some useful folders that you might want to create within your folder structure. I've personally found them to be indispensable.
-Below is an example of a folder called "Quick links", with about seven files (shortcuts) in it, that is accessible through the Windows Quick Launch bar:<img>
+Below is an example of a folder called "Quick links", with about seven files (shortcuts) in it, that is accessible through the Windows Quick Launch bar:<br><img class="embedded-img" src="">
 This can be anything from a simple 100Kb setup.exe file you downloaded from a website, all the way up to a 4Gig ISO file that you copied from a DVD-ROM that you purchased.
 We all know that our documents are important. So are our photos and music files. We save all of these files into folders, and then locate them afterwards and double-click on them to open them.
 Imagine if you lost all of the above files!
@@ -163,10 +163,10 @@ Anyone who considers themselves serious about being organized needs instant acce
 <strong>Tip #40.  Ummmmm....</strong><br> No, that's it. I can't think of another one. That's all of the tips I can come up with. I only created this one because 40 is such a nice round number...
 <strong>Case Study -- An Organized PC</strong>
 Very minimal.
-- <strong>Data</strong> contains files from the rest of the world (can be thought of as "public" files, usually downloaded from the Net)
-- <strong>Humour</strong>: Jokes, funnies (those emails that we all receive)
+&#x2022; <strong>Data</strong> contains files from the rest of the world (can be thought of as "public" files, usually downloaded from the Net)
+&#x2022; <strong>Humour</strong>: Jokes, funnies (those emails that we all receive)
 (all pretty self-explanatory)
 Again, all pretty self-explanatory (if you're a geek)
-- <strong>From Others</strong>:  Usually letters that other people (friends, family, etc) have written to me
-- <strong>Writing</strong>: Fiction, philosophy and other musings of mine
+&#x2022; <strong>From Others</strong>:  Usually letters that other people (friends, family, etc) have written to me
+&#x2022; <strong>Writing</strong>: Fiction, philosophy and other musings of mine
 These tips have saved my sanity and helped keep me a productive geek, but what about you?
