@@ -52,7 +52,7 @@ You may then realize that there are overlaps.
 In other words, who created the files.
 You could have "Files cre&shy;ated by ME (business or personal)", "Files created by people I know (family, friends, etc)", and finally "Files created by the rest of the world (MP3 music files, downloaded or ripped movies or TV shows, soft&shy;ware in&shy;stal&shy;la&shy;tion files, gorgeous desktop wallpaper images you've collected, etc)".
 This system happens to be the one I use myself.
-See below:<br><img class="embedded-img" src="">
+See below:<br><img class="embedded-img" src="https://i.ibb.co/ScM4cVN/55.png">
 &#x2022; <strong>Data</strong> is the rest of the world
 Each folder will present its own particular set of requirements for further sub-organization.
 For example, you may decide to or&shy;ga&shy;nize your music collection into sub-folders based on the artist's name, while your digital photos might get organized based on the date they were taken. It can be different for every sub-folder!
@@ -83,7 +83,7 @@ The name of the folder is not important, but make it a single, brief word.
 Once you've decided where your files should go, then put all your files in there --- Everything!
 Completely disregard the standard, default folders that are created for you by the operating system ("My Music", "My Pictures", etc).
 In fact, you can ac&shy;tu&shy;al&shy;ly re&shy;lo&shy;cate many of those folders into your own structure (more about that below, in tip #6).
-Here's a screenshot of a nice&shy;ly or&shy;ga&shy;nized C: drive, where all user files are located within the \Files folder:<br><img class="embedded-img" src="">
+Here's a screenshot of a nice&shy;ly or&shy;ga&shy;nized C: drive, where all user files are located within the \Files folder:<br><img class="embedded-img" src="https://i.ibb.co/zmLWcX3/86.png">
 <strong>Tip #4.  Use Sub-Folders</strong>
 Any organizational system you decide upon (see tip #1) will require that you create sub-folders for your files.
 Get used to creating folders on a regular basis.
@@ -96,7 +96,7 @@ If you notice yourself creating a sub-folder to hold only one file, then you've 
 Those ones you can leave where they are.
 But there's a simple so&shy;lu&shy;tion: Move the folders you care about into your own folder structure!
 Moving the folders is easy.
-Here's a screenshot of the de&shy;fault <strong>My Music</strong> folder being moved to my custom personal folder (<strong>Mark</strong>):<br><img class="embedded-img" src="">
+Here's a screenshot of the de&shy;fault <strong>My Music</strong> folder being moved to my custom personal folder (<strong>Mark</strong>):<br><img class="embedded-img" src="https://i.ibb.co/0tmRT2Q/99.png">
 <strong>Tip #7.  Name Files and Folders Intelligently</strong>
 <strong>Tip #8.  Watch Out for Long Filenames</strong>
 If you need to call a file <strong>Johnson Sales Figures March 2009.xls</strong> (which might happen to live in the same folder as <strong>Abercrombie Budget Report 2008.xls</strong>), then you might want to create some sub-folders so that the first file could be simply called <strong>March.xls</strong>, and living in the <strong>Clients\Johnson\Sales Figures\2009</strong> folder.
@@ -111,14 +111,14 @@ Just because it's correctly filed doesn't mean it's easy to get to.
 Most unsatisfactory.
 Grrrrr!
 In fact, you can create a dozen such icons and scatter them all over your hard disk.
-Consider the following two icons:<br><img class="embedded-img" src="">
+Consider the following two icons:<br><img class="embedded-img" src="https://i.ibb.co/SPKZR21/114.png">
 You will always have files that don't play nice with your or&shy;ga&shy;ni&shy;za&shy;tion&shy;al ra&shy;tio&shy;nale, and can't be filed in only one place. They demand to exist in two places.
 The cool part is that the orig&shy;i&shy;nal files stay where they are, safe forever in their per&shy;fect&shy;ly or&shy;ga&shy;nized lo&shy;ca&shy;tion.
 So your collection of most often-opened files can --- and should --- become a collection of shortcuts!
 It should be easy to see by now that shortcuts are designed for one single purpose:  To make ac&shy;cess&shy;ing your files more convenient.
 Shortcuts allow us to invent a golden rule of file and folder or&shy;ga&shy;ni&shy;za&shy;tion: <em>"Only ever have one copy of a file --- never have two copies of the same file. Use a shortcut instead."</em> (This rule doesn't apply to copies created for backup purposes, of course!)
 There are also lesser rules, like "don't move a file into your work area --- create a shortcut there instead", and "any time you find yourself frustrated with how long it takes to locate a file, create a shortcut to it and place that shortcut in a convenient location."
-Right-drag (drag with the right mouse button) the file from the source folder to the des&shy;ti&shy;na&shy;tion folder. When you let go of the mouse button at the des&shy;ti&shy;na&shy;tion folder, a menu pops up:<br><img class="embedded-img" src="">
+Right-drag (drag with the right mouse button) the file from the source folder to the des&shy;ti&shy;na&shy;tion folder. When you let go of the mouse button at the des&shy;ti&shy;na&shy;tion folder, a menu pops up:<br><img class="embedded-img" src="https://i.ibb.co/dryLVMT/121.png"><br>Select <strong>Create shortcuts here</strong>.
 Hopefully you always have the orig&shy;i&shy;nal in&shy;stal&shy;la&shy;tion media (or downloaded set-up file) kept somewhere safe, and can thus reinstall your software at any time.
 If it's suggesting that you save the file into the same folder as the software itself, then definitely don't follow that suggestion. File it in your own folder!
 <strong>Tip #11.  Organize Files Based on Purpose, Not on File Type</strong>
@@ -126,7 +126,7 @@ If you have, for example a folder called <strong>Work\Clients\Johnson</strong>, 
 In other words, what&shy;ev&shy;er or&shy;ga&shy;ni&shy;za&shy;tion&shy;al system you create, apply it to every computer that you can.
 So where should you put this folder, which, almost by definition, lives outside the structure of the rest of your filing system?
 The last thing you want to be doing is check&shy;ing mul&shy;tiple fold&shy;ers to see all your current tasks and projects.
-This keeps your desk&shy;top un&shy;clut&shy;tered and Zen-like:<br><img class="embedded-img" src=""><br>(the Inbox folder is in the bottom-right corner)
+This keeps your desk&shy;top un&shy;clut&shy;tered and Zen-like:<br><img class="embedded-img" src="https://i.ibb.co/rMBzsVt/129.jpg"><br>(the Inbox folder is in the bottom-right corner)
 You may continue to put files in there, but you'll be scared to look at it, fearing the "out of control" feeling that all over&shy;worked, chaotic or just plain disorganized people regularly feel.
 Scan the folder regularly for files that you have completed working on and are ready for filing. File them immediately.
 Make it a source of pride to keep the number of files in this folder as small as possible.
@@ -136,23 +136,23 @@ If you know that a par&shy;tic&shy;ul&shy;ar file has been in the folder for mor
 Did you know that it's ac&shy;tu&shy;al&shy;ly possible to store your files on the D: drive and yet access them as if they were on the C: drive?
 The Windows Start Menu is usually one of the messiest parts of any Windows computer.
 Thankfully we can avoid this chaos with useful operating system features like Quick Launch, the Superbar or pinned start menu items.
-Below is an example of one such structure:<br><img class="embedded-img" src="">
+Below is an example of one such structure:<br><img class="embedded-img" src="https://i.ibb.co/H7cT9PZ/139.png">
 <strong>Tip #20.  <span class="underline">Keep</span> Your Start Menu Tidy</strong>
 Every time you install a new piece of software, the icons that get created will almost cer&shy;tain&shy;ly vi&shy;o&shy;late your organizational structure.
-In an ideal world, your C:\ folder should look like this (on Windows 7):<br><img class="embedded-img" src="">
+In an ideal world, your C:\ folder should look like this (on Windows 7):<br><img class="embedded-img" src="https://i.ibb.co/XZTbYkL/142.png">
 Hiding them prevents you from accidentally messing with them, and enhances your sense of order and well-being when you look at your C: drive folder.
 The Desktop is probably the most abused part of a Windows computer (from an organization point of view).
 Application icons (Word, Internet Explorer, etc) are often found on the Desktop, but it's unlikely that this is the optimum place for them.
-In an ideal world, it might look like this:<br><img class="embedded-img" src="">
+In an ideal world, it might look like this:<br><img class="embedded-img" src="https://i.ibb.co/rMBzsVt/129.jpg">
 Then, the next time you glance at the folder, you won't have to remember whether that file was supposed to be there or not, because you won't see it at all!
 <strong>Tip #27.  Try to Minimize the Number of Folders that Contain Both Files and Sub-folders</strong>
-The folder at the top of the list, _Misc, contains random photos that didn't deserve their own dedicated folder:<br><img class="embedded-img" src="">
+The folder at the top of the list, _Misc, contains random photos that didn't deserve their own dedicated folder:<br><img class="embedded-img" src="https://i.ibb.co/xsj9LwM/149.png">
 In the meantime have you up&shy;grad&shy;ed your com&shy;put&shy;er and now have 500 Gigabytes of space you don't know what to do with? If so, isn't it time you tidied up that stack of disks and filed them into your gorgeous new folder structure?
 So what are you waiting for?
 Bite the bullet, copy them all back onto your computer, file them in their ap&shy;pro&shy;pri&shy;ate fold&shy;ers, and then back the whole lot up onto a shiny new 1000Gig external hard drive!
 <strong>Useful Folders to Create</strong>
 This next section suggests some useful folders that you might want to create within your folder structure. I've personally found them to be indispensable.
-Below is an example of a folder called "Quick links", with about seven files (shortcuts) in it, that is accessible through the Windows Quick Launch bar:<br><img class="embedded-img" src="">
+Below is an example of a folder called "Quick links", with about seven files (shortcuts) in it, that is accessible through the Windows Quick Launch bar:<br><span class="img-centering"><img class="embedded-img" src="https://i.ibb.co/sQPfJ75/155.png"></span>
 This can be anything from a simple 100Kb setup.exe file you downloaded from a website, all the way up to a 4Gig ISO file that you copied from a DVD-ROM that you purchased.
 We all know that our doc&shy;u&shy;ments are important. So are our photos and music files. We save all of these files into folders, and then locate them afterwards and double-click on them to open them.
 Imagine if you lost all of the above files!

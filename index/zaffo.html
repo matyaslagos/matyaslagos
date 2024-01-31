@@ -74,6 +74,17 @@
 		padding-right: 25px;
 	}
 	
+	.embedded-img {
+		max-width: 380px;
+		width: 100%;
+		margin-top: 5pt;
+		margin-bottom: 5pt;
+	}
+	
+	.img-centering {
+		text-align: center;
+	}
+	
 	.counter {
 		font-family: Courier;
 		font-weight: normal;
@@ -131,8 +142,7 @@
 <script>
 				// URL of the text file
         const fileUrl = 'https://raw.githubusercontent.com/matyaslagos/matyaslagos.github.io/main/index/Assets/zaffo.txt';
-
-        // Function to get current day of the year
+				// Get current day
         function getDayOfYear() {
             const now = new Date();
             const start = new Date(now.getFullYear(), 0, 0);
@@ -141,7 +151,6 @@
             const day = Math.floor(diff / oneDay);
             return day;
         }
-
         // Fetch the text file
         fetch(fileUrl)
             .then(response => {
@@ -156,7 +165,7 @@
                 // Split text into lines
                 const lines = text.split('\n');
                 // Get the current day of the year
-                const startingDate = new Date('2024-01-10');
+                const startingDate = new Date('2023-08-30');
                 const currentDate = new Date();
                 const millisecondsPerDay = 1000 * 60 * 60 * 24;
                 const daysPassed = Math.floor((currentDate - startingDate) / millisecondsPerDay);
