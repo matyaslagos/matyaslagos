@@ -13,7 +13,7 @@
 	  font-size: 13pt;
 		line-height: 17pt;
 		color: #4a433f;
-		text-shadow: 0px 0px 1px #979797;
+		text-shadow: 0px 0px 0.9px #979797;
   }
 	
 	.has-bg {
@@ -34,6 +34,9 @@
 	  0% {
 	    opacity: 0;
 	  }
+		20% {
+			opacity: 0.05;
+		}
 	  100% {
 	    opacity: 1;
 	  }
@@ -51,8 +54,19 @@
 		justify-content: center;
 		align-items: center;
 		box-shadow: 0px 4px 10px 0 rgba(0,0,0,0.2);
+		
+		animation: fadeInAnimation ease 3s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
 	}
-	
+	@keyframes fadeInAnimation {
+	  0% {
+	    opacity: 0;
+	  }
+	  100% {
+	    opacity: 1;
+	  }
+	}
 	.container{
 		padding-top: 12px;
 		padding-bottom: 12px;
@@ -62,11 +76,12 @@
 	
 	.counter {
 		font-family: Courier;
+		font-weight: normal;
 		text-align: right;
 	  font-size: 11pt;
 		line-height: 12pt;
-		color: rgb(239, 227, 225, 0.5); /*rgb(212, 202, 202, 0.7)*/
-		text-shadow: 0px 0px 0.3px #979797;
+		color: rgb(239, 227, 225, 0.6); /*rgb(239, 227, 225, 0.5)*/
+		text-shadow: 0px 0px 0.4px #979797; /*0px 0px 0.3px #979797*/
 		position: absolute;
 		right: 4.5pt;
 		bottom: -9pt;
@@ -82,7 +97,23 @@
 		font-size: 11pt;
 		color: rgba(0, 0, 0, 0.9);
 		line-height: 12.5pt;
+		
+		animation: delayedFadeInAnimation ease 3s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
 	}
+	@keyframes delayedFadeInAnimation {
+	  0% {
+	    opacity: 0;
+	  }
+		10% {
+			opacity: 0;
+		}
+	  100% {
+	    opacity: 1;
+	  }
+	}
+	
 </style>
 
 </head>
@@ -134,7 +165,7 @@
                 // Get the line to display
                 const lineToDisplay = lines[lineIndex];
                 // Print the line into the body of the website
-                document.getElementById('output').innerHTML = lineToDisplay;
+                document.getElementById('quote').innerHTML = lineToDisplay;
 								// Add 1 to get the line number and display it as count
 								const lineNo = lineIndex + 1
 								document.getElementById('count').innerText = lineNo + "/172";
@@ -144,11 +175,11 @@
             });
 </script>
 
-<div class="fade-in">
+<div>
 
 <div class="card has-bg bg-paper">
 	<div class="container">
-  <p id="output" class="card-text"></p>
+  <p id="quote" class="card-text"></p>
 	<p id="count" class="counter"></p>
   </div>
 </div>
