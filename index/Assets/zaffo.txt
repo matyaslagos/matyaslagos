@@ -20,7 +20,7 @@ And yet, in this era of powerful desktop search software (the search ca&shy;pa&s
 I have a friend who puts every file he ever creates, receives or down&shy;loads into his <strong>My Documents</strong> folder and doesn't bother filing them into sub&shy;folders at all.
 He relies on the search func&shy;tion&shy;al&shy;i&shy;ty built into his Windows operating system to help him find whatever he's looking for.
 And he always finds it. He's a Search Samurai.
-For him, filing is a waste of valuable time that could be spent enjoying life! It's tempting to follow suit.
+For him, filing is a waste of valuable time that could be spent enjoying life!
 On the face of it, why would anyone bother to take the time to organize their hard disk when such ex&shy;cel&shy;lent search soft&shy;ware is available?
 Well, if all you ever want to do with the files you own is to locate and open them in&shy;di&shy;vid&shy;u&shy;al&shy;ly (for listening, editing, etc), then there's no reason to ever bother doing one scrap of organization.
 Often it's not con&shy;ve&shy;nient, speedy or even possible to utilize your desktop search software to find what you want.
@@ -152,7 +152,7 @@ So what are you waiting for?
 Bite the bullet, copy them all back onto your computer, file them in their ap&shy;pro&shy;pri&shy;ate fold&shy;ers, and then back the whole lot up onto a shiny new 1000Gig external hard drive!
 <strong>Useful Folders to Create</strong>
 This next section suggests some useful folders that you might want to create within your folder structure. I've personally found them to be indispensable.
-Below is an example of a folder called "Quick links", with about seven files (shortcuts) in it, that is accessible through the Windows Quick Launch bar:<br><span class="img-centering"><img class="embedded-img" src="https://i.ibb.co/sQPfJ75/155.png"></span>
+Below is an example of a folder called "Quick links", with about seven files (shortcuts) in it, that is accessible through the Windows Quick Launch bar:<br><img class="embedded-img" src="https://i.ibb.co/sQPfJ75/155.png">
 This can be anything from a simple 100Kb setup.exe file you downloaded from a website, all the way up to a 4Gig ISO file that you copied from a DVD-ROM that you purchased.
 We all know that our doc&shy;u&shy;ments are important. So are our photos and music files. We save all of these files into folders, and then locate them afterwards and double-click on them to open them.
 Imagine if you lost all of the above files!
