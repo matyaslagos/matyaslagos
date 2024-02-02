@@ -50,7 +50,7 @@
 		max-width: 400px;
 		margin-right: auto;
 		margin-left: auto;
-		margin-top: 50px;
+		margin-top: 40px;
 		justify-content: center;
 		align-items: center;
 		box-shadow: 0px 4px 10px 0 rgba(0,0,0,0.2);
@@ -68,17 +68,18 @@
 	  }
 	}
 	.container{
-		padding-top: 12px;
-		padding-bottom: 12px;
+		padding-top: 0.6em;
+		padding-bottom: 0.675em;
 		padding-left: 28px;
 		padding-right: 28px;
 	}
 	
 	.embedded-img {
 		max-width: 380px;
-		width: 50%;
-		margin-top: 5pt;
-		margin-bottom: 5pt;
+		width: 80%;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		shadow: 0px 0px 0.9px #979797;
 	}
 	
 	.img-centering {
@@ -94,8 +95,8 @@
 		color: rgb(239, 227, 225, 0.6); /*rgb(239, 227, 225, 0.5)*/
 		text-shadow: 0px 0px 0.4px #979797; /*0px 0px 0.3px #979797*/
 		position: absolute;
-		right: 4.5pt;
-		bottom: -9pt;
+		right: 4.35pt;
+		bottom: -10pt;
 	}
 	
 	.disclaimer{
@@ -142,14 +143,14 @@
 <script>
 				// URL of the text file
         const fileUrl = 'https://raw.githubusercontent.com/matyaslagos/matyaslagos.github.io/main/index/Assets/zaffo.txt';
-				// Get current day
+				// Function for starting date at 12:00 a.m.
         function startDate(date) {
-            var specificDate = new Date(date);
-						specificDate.setHours(0);
-						specificDate.setMinutes(0);
-						specificDate.setSeconds(0);
-						specificDate.setMilliseconds(0);
-            return specificDate;
+            var midnightDate = new Date(date);
+						midnightDate.setHours(0);
+						midnightDate.setMinutes(0);
+						midnightDate.setSeconds(0);
+						midnightDate.setMilliseconds(0);
+            return midnightDate;
         }
         // Fetch the text file
         fetch(fileUrl)
@@ -165,7 +166,7 @@
                 // Split text into lines
                 const lines = text.split('\n');
                 // Get the current day of the year
-                const startingDate = startDate('2024-01-10');
+                const startingDate = startDate('2023-09-01');
                 const currentDate = new Date();
                 const millisecondsPerDay = 1000 * 60 * 60 * 24;
                 const daysPassed = Math.floor((currentDate - startingDate) / millisecondsPerDay);
