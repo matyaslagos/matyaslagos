@@ -152,7 +152,7 @@ So what are you waiting for?
 Bite the bullet, copy them all back onto your computer, file them in their ap&shy;pro&shy;pri&shy;ate fold&shy;ers, and then back the whole lot up onto a shiny new 1000Gig external hard drive!
 <strong>Useful Folders to Create</strong>
 This next section suggests some useful folders that you might want to create within your folder structure. I've personally found them to be indispensable.
-Below is an example of a folder called "Quick links", with about seven files (shortcuts) in it, that is accessible through the Windows Quick Launch bar:<br><div class="img-centering"><img class="embedded-img" src="https://i.ibb.co/8KNRMXw/155.png"></div>
+Below is an example of a fold&shy;er called "Quick links", with about seven files (shortcuts) in it, that is ac&shy;ces&shy;si&shy;ble through the Windows Quick Launch bar:<br><div class="img-centering"><img class="embedded-img" src="https://i.ibb.co/8KNRMXw/155.png"></div>
 This can be anything from a simple 100Kb setup.exe file you downloaded from a website, all the way up to a 4Gig ISO file that you copied from a DVD-ROM that you purchased.
 We all know that our doc&shy;u&shy;ments are important. So are our photos and music files. We save all of these files into folders, and then locate them afterwards and double-click on them to open them.
 Imagine if you lost all of the above files!
