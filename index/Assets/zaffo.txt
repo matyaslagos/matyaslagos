@@ -160,7 +160,6 @@ Also, when migrating to a new com&shy;put&shy;er, it&rsquo;s vital to ensure tha
 That Quick Launch bar (to the right of the Start button) is a lot more useful than people give it credit for.
 This is only necessary in Windows Vista and Windows XP. The Microsoft boffins finally got wise and added it to the Windows 7 Superbar by default.
 Anyone who considers them&shy;selves serious about being organized needs instant access to this program at any time.
-<strong>Tip #40.  Ummmmm....</strong><br> No, that&rsquo;s it. I can&rsquo;t think of another one. That&rsquo;s all of the tips I can come up with. I only created this one because 40 is such a nice round number...
 <strong>Case Study -- An Organized PC</strong>
 Very minimal.
 &#x2022; <strong>Data</strong> contains files from the rest of the world (can be thought of as &ldquo;public&rdquo; files, usually downloaded from the Net)
@@ -169,4 +168,5 @@ Very minimal.
 Again, all pretty self-ex&shy;plana&shy;tory (if you&rsquo;re a geek)
 &#x2022; <strong>From Others</strong>: Usually letters that other people (friends, family, etc) have written to me
 &#x2022; <strong>Writing</strong>: Fiction, philosophy and other musings of mine
-These tips have saved my sanity and helped keep me a productive geek, but what about you?
+<strong>Tip #40.  Ummmmm....</strong><br>No, that&rsquo;s it. I can&rsquo;t think of another one. That&rsquo;s all of the tips I can come up with. I only created this one because 40 is such a nice round number...
+These tips have saved my sanity and helped keep me a productive geek, but what about you? What tips and tricks do you have to keep your files organized? Please share them with us in the comments.
