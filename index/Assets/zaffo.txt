@@ -51,9 +51,7 @@ You may then realize that there are overlaps.
 &#x2022; You may decide that the highest-level breakdown of your files is based on the &ldquo;source&rdquo; of each file.
 In other words, who created the files.
 You could have &ldquo;Files cre&shy;ated by ME (business or personal)&rdquo;, &ldquo;Files created by people I know (family, friends, etc)&rdquo;, and finally &ldquo;Files created by the rest of the world (MP3 music files, downloaded or ripped movies or TV shows, soft&shy;ware in&shy;stal&shy;la&shy;tion files, gorgeous desktop wallpaper images you&rsquo;ve collected, etc)&rdquo;.
-This system happens to be the one I use myself.
-See below:<br><img class="embedded-img" src="https://i.ibb.co/KqGfHyD/55.png">
-&#x2022; <strong>Data</strong> is the rest of the world
+This system happens to be the one I use myself. See below:<br><img class="embedded-img" src="https://i.ibb.co/KqGfHyD/55.png">
 Each folder will present its own particular set of requirements for further sub-organization.
 For example, you may decide to or&shy;ga&shy;nize your music collection into sub-folders based on the artist&rsquo;s name, while your digital photos might get organized based on the date they were taken. It can be different for every sub-folder!
 Another strategy would be based on &ldquo;currentness&rdquo;.
@@ -117,14 +115,14 @@ The cool part is that the orig&shy;i&shy;nal files stay where they are, safe for
 So your collection of most often-opened files can --- and should --- become a collection of shortcuts!
 It should be easy to see by now that shortcuts are designed for one single purpose:  To make ac&shy;cess&shy;ing your files more convenient.
 Shortcuts allow us to invent a golden rule of file and folder or&shy;ga&shy;ni&shy;za&shy;tion: <em>&ldquo;Only ever have one copy of a file --- never have two copies of the same file. Use a shortcut instead.&rdquo;</em> (This rule doesn&rsquo;t apply to copies created for backup purposes, of course!)
-There are also lesser rules, like &ldquo;don&rsquo;t move a file into your work area --- create a shortcut there instead&rdquo;, and &ldquo;any time you find yourself frustrated with how long it takes to locate a file, create a shortcut to it and place that shortcut in a convenient location.&ldquo;
+There are also lesser rules, like &ldquo;don&rsquo;t move a file into your work area --- create a shortcut there instead&rdquo;, and &ldquo;any time you find yourself frustrated with how long it takes to locate a file, create a shortcut to it and place that shortcut in a convenient location.&rdquo;
 Right-drag (drag with the right mouse button) the file from the source folder to the des&shy;ti&shy;na&shy;tion folder. When you let go of the mouse button at the des&shy;ti&shy;na&shy;tion folder, a menu pops up:<br><img class="embedded-img" src="https://i.ibb.co/LrJrv8L/121.png"><br>Select <strong>Create shortcuts here</strong>.
 Hopefully you always have the orig&shy;i&shy;nal in&shy;stal&shy;la&shy;tion media (or downloaded set-up file) kept somewhere safe, and can thus reinstall your software at any time.
 If it&rsquo;s suggesting that you save the file into the same folder as the software itself, then definitely don&rsquo;t follow that suggestion. File it in your own folder!
 <strong>Tip #11.  Organize Files Based on Purpose, Not on File Type</strong>
 If you have, for example a folder called <strong>Work\Clients\Johnson</strong>, and within that folder you have two sub-folders, <strong>Word Documents</strong> and <strong>Spreadsheets</strong> (in other words, you&rsquo;re separating &ldquo;.doc&rdquo; files from &ldquo;.xls&rdquo; files), then chances are that you&rsquo;re not optimally organized.
 In other words, what&shy;ev&shy;er or&shy;ga&shy;ni&shy;za&shy;tion&shy;al system you create, apply it to every computer that you can.
-So where should you put this folder, which, almost by definition, lives outside the structure of the rest of your filing system?
+So where should you put this folder, which, almost by def&shy;i&shy;ni&shy;tion, lives outside the struc&shy;ture of the rest of your filing system?
 The last thing you want to be doing is check&shy;ing mul&shy;tiple fold&shy;ers to see all your current tasks and projects.
 This keeps your desk&shy;top un&shy;clut&shy;tered and Zen-like:<br><img class="embedded-img" src="https://i.ibb.co/PMKsvMs/129.png"><br>(the Inbox folder is in the bottom-right corner)
 You may continue to put files in there, but you&rsquo;ll be scared to look at it, fearing the &ldquo;out of control&rdquo; feeling that all over&shy;worked, chaotic or just plain disorganized people regularly feel.
@@ -138,7 +136,7 @@ The Windows Start Menu is usually one of the messiest parts of any Windows compu
 Thankfully we can avoid this chaos with useful operating system features like Quick Launch, the Superbar or pinned start menu items.
 Below is an example of one such structure:<br><img class="embedded-img" src="https://i.ibb.co/HpK2nrc/139.png">
 <strong>Tip #20.  <span class="underline">Keep</span> Your Start Menu Tidy</strong>
-Every time you install a new piece of software, the icons that get created will almost cer&shy;tain&shy;ly vi&shy;o&shy;late your organizational structure.
+Every time you install a new piece of software, the icons that get created will almost cer&shy;tain&shy;ly vi&shy;o&shy;late your or&shy;ga&shy;ni&shy;za&shy;tion&shy;al structure.
 In an ideal world, your C:\ folder should look like this (on Windows 7):<br><img class="embedded-img" src="https://i.ibb.co/37qq5Jp/142.png">
 Hiding them prevents you from accidentally messing with them, and enhances your sense of order and well-being when you look at your C: drive folder.
 The Desktop is probably the most abused part of a Windows computer (from an organization point of view).
