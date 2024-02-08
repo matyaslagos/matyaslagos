@@ -32,7 +32,7 @@ Sometimes it&rsquo;s the date the file was created that&rsquo;s im&shy;por&shy;t
 How do you name a col&shy;lec&shy;tion of files so that they&rsquo;re easy to isolate based on any of the above criteria?
 Short answer, you can&rsquo;t.
 It&rsquo;s time to upgrade your com&shy;put&shy;er. How do you quickly grab all the files that are important to you?
-Or you decide to have two com&shy;put&shy;ers now --- one for home and one for work. How do you quick&shy;ly iso&shy;late only the work-related files to move them to the work computer?
+Or you decide to have two com&shy;put&shy;ers now <span class="no-br">––</span> one for home and one for work. How do you quick&shy;ly iso&shy;late only the work-related files to move them to the work computer?
 If you have more than one com&shy;put&shy;er, and you need to mirror some of your files onto the other com&shy;put&shy;er (e.g. your music col&shy;lec&shy;tion), then you need a way to quickly determine which files are to be synced and which are not.
 Surely you don&rsquo;t want to syn&shy;chro&shy;nize everything?
 If your backup regime calls for mul&shy;ti&shy;ple back&shy;ups, or requires speedy backups, then you&rsquo;ll need to be able to specify which files are to be backed up, and which are not.
@@ -57,13 +57,13 @@ For example, you may decide to or&shy;ga&shy;nize your music collection into sub
 Another strategy would be based on &ldquo;currentness&rdquo;.
 Files you have yet to open and look at live in one folder.
 (And of course, within that last folder you&rsquo;d need to create a further sub-system based on one of the previous bullet points.)
-Put some thought into this –– changing it when it proves incomplete can be a big hassle!
+Put some thought into this <span class="no-br">––</span> changing it when it proves incomplete can be a big hassle!
 Before you go to the trouble of im&shy;ple&shy;ment&shy;ing any system you come up with, examine a wide cross-section of the files you own and see if they will all be able to find a nice logical place to sit within your system.
 <strong>Tip #2.  When You Decide on Your System, Stick to It!</strong>
 There&rsquo;s nothing more point&shy;less than going to all the trouble of creating a system and filing all your files, and then whenever you create, receive or download a new file, you simply dump it onto your Desktop.
-You need to be disciplined --- forever!
+You need to be disciplined <span class="no-br">––</span> forever!
 Every new file you get, spend those extra few seconds to file it where it belongs!
-Otherwise, in just a month or two, you&rsquo;ll be worse off than before --- half your files will be organized and half will be disorganized --- and you won&rsquo;t know which is which!
+Otherwise, in just a month or two, you&rsquo;ll be worse off than before <span class="no-br">––</span> half your files will be organized and half will be disorganized <span class="no-br">––</span> and you won&rsquo;t know which is which!
 <strong>Tip #3.  Choose the Root Folder of Your Structure Carefully</strong>
 If you do, then you&rsquo;re leaving it up to the op&shy;er&shy;at&shy;ing sys&shy;tem en&shy;gi&shy;neers to decide what folder structure is best for you.
 And every operating system has a different system!
@@ -73,12 +73,12 @@ In fact, don&rsquo;t even use the &ldquo;My Documents&rdquo; folder at all.
 Allow it to fill up with junk, and then simply ignore it.
 It sounds heretical, but: Don&rsquo;t ever visit your &ldquo;My Documents&rdquo; folder!
 Create your own file system from scratch!
-This way, all your files live on one drive, while all the op&shy;er&shy;at&shy;ing system and soft&shy;ware com&shy;po&shy;nent files live on the C: drive --- simply and elegantly separated.
+This way, all your files live on one drive, while all the op&shy;er&shy;at&shy;ing system and soft&shy;ware com&shy;po&shy;nent files live on the C: drive <span class="no-br">––</span> simply and elegantly separated.
 The benefits of that are profound.
 If you can&rsquo;t ensure that, then you can still use a clever geeky trick to store your files on the <strong>D:</strong> drive, but still access them all via the <strong>C:</strong> drive (see tip #17, below).
 The name of the folder is not important, but make it a single, brief word.
 &#x2022; You will always know where to begin a search for any file
-Once you&rsquo;ve decided where your files should go, then put all your files in there --- Everything!
+Once you&rsquo;ve decided where your files should go, then put all your files in there <span class="no-br">––</span> Everything!
 Completely disregard the standard, default folders that are created for you by the operating system (&ldquo;My Music&rdquo;, &ldquo;My Pictures&rdquo;, etc).
 In fact, you can ac&shy;tu&shy;al&shy;ly re&shy;lo&shy;cate many of those folders into your own structure (more about that below, in tip #6).
 Here&rsquo;s a screenshot of a nice&shy;ly or&shy;ga&shy;nized C: drive, where all user files are located within the \Files folder:<br><img class="embedded-img" src="https://i.ibb.co/mCxshVn/86.png">
@@ -112,10 +112,10 @@ In fact, you can create a dozen such icons and scatter them all over your hard d
 Consider the following two icons:<br><img class="embedded-img" src="https://i.ibb.co/4s9gX69/114.png">
 You will always have files that don&rsquo;t play nice with your or&shy;ga&shy;ni&shy;za&shy;tion&shy;al ra&shy;tio&shy;nale, and can&rsquo;t be filed in only one place. They demand to exist in two places.
 The cool part is that the orig&shy;i&shy;nal files stay where they are, safe forever in their per&shy;fect&shy;ly or&shy;ga&shy;nized lo&shy;ca&shy;tion.
-So your collection of most often-opened files can --- and should --- become a collection of shortcuts!
+So your collection of most often-opened files can <span class="no-br">––</span> and should <span class="no-br">––</span> become a collection of shortcuts!
 It should be easy to see by now that shortcuts are designed for one single purpose:  To make ac&shy;cess&shy;ing your files more convenient.
-Shortcuts allow us to invent a golden rule of file and folder or&shy;ga&shy;ni&shy;za&shy;tion: <em>&ldquo;Only ever have one copy of a file --- never have two copies of the same file. Use a shortcut instead.&rdquo;</em> (This rule doesn&rsquo;t apply to copies created for backup purposes, of course!)
-There are also lesser rules, like &ldquo;don&rsquo;t move a file into your work area --- create a shortcut there instead&rdquo;, and &ldquo;any time you find yourself frustrated with how long it takes to locate a file, create a shortcut to it and place that shortcut in a convenient location.&rdquo;
+Shortcuts allow us to invent a golden rule of file and folder or&shy;ga&shy;ni&shy;za&shy;tion: <em>&ldquo;Only ever have one copy of a file <span class="no-br">––</span> never have two copies of the same file. Use a shortcut instead.&rdquo;</em> (This rule doesn&rsquo;t apply to copies created for backup purposes, of course!)
+There are also lesser rules, like &ldquo;don&rsquo;t move a file into your work area <span class="no-br">––</span> create a shortcut there instead&rdquo;, and &ldquo;any time you find yourself frustrated with how long it takes to locate a file, create a shortcut to it and place that shortcut in a convenient location.&rdquo;
 Right-drag (drag with the right mouse button) the file from the source folder to the des&shy;ti&shy;na&shy;tion folder. When you let go of the mouse button at the des&shy;ti&shy;na&shy;tion folder, a menu pops up:<br><img class="embedded-img" src="https://i.ibb.co/LrJrv8L/121.png"><br>Select <strong>Create shortcuts here</strong>.
 Hopefully you always have the orig&shy;i&shy;nal in&shy;stal&shy;la&shy;tion media (or downloaded set-up file) kept somewhere safe, and can thus reinstall your software at any time.
 If it&rsquo;s suggesting that you save the file into the same folder as the software itself, then definitely don&rsquo;t follow that suggestion. File it in your own folder!
