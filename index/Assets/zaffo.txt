@@ -57,7 +57,7 @@ For example, you may decide to or&shy;ga&shy;nize your music collection into sub
 Another strategy would be based on &ldquo;currentness&rdquo;.
 Files you have yet to open and look at live in one folder.
 (And of course, within that last folder you&rsquo;d need to create a further sub-system based on one of the previous bullet points.)
-Put some thought into this --- changing it when it proves incomplete can be a big hassle!
+Put some thought into this — changing it when it proves incomplete can be a big hassle!
 Before you go to the trouble of im&shy;ple&shy;ment&shy;ing any system you come up with, examine a wide cross-section of the files you own and see if they will all be able to find a nice logical place to sit within your system.
 <strong>Tip #2.  When You Decide on Your System, Stick to It!</strong>
 There&rsquo;s nothing more point&shy;less than going to all the trouble of creating a system and filing all your files, and then whenever you create, receive or download a new file, you simply dump it onto your Desktop.
