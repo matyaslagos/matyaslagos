@@ -35,6 +35,7 @@ body {
   font-size: 14.5pt;
   font-weight: 500;
   padding-right: 5pt;
+	white-space: nowrap;
 }
 
 /* Page title */
