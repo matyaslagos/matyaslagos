@@ -1,5 +1,5 @@
 [hétfőn kezdődik]
-hello
+[hétfőn kezdődik]
 And the first thing that takes time is de&shy;cid&shy;ing upon a system of organization.
 If your computer is a mess, you&rsquo;re proba&shy;bly already aware of it.
 &#x2022; You can&rsquo;t find programs in the out-of-control list of programs in your Start Menu
