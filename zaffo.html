@@ -177,7 +177,7 @@
                 // Split text into lines
                 const lines = text.split('\n');
                 // Get the current day of the year
-                const startingDate = startDate('2023-12-12');
+                const startingDate = startDate('2024-02-24');
                 const currentDate = new Date();
                 const millisecondsPerDay = 1000 * 60 * 60 * 24;
                 const daysPassed = Math.floor((currentDate - startingDate) / millisecondsPerDay);
@@ -189,7 +189,7 @@
                 document.getElementById('quote').innerHTML = lineToDisplay;
 								// Add 1 to get the line number and display it as count
 								const lineNo = lineIndex + 1;
-								document.getElementById('count').innerText = lineNo + "/172";
+								//document.getElementById('count').innerText = lineNo + "/172";
             })
             .catch(error => {
                 console.error('There was a problem with the fetch operation:', error);

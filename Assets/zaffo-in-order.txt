@@ -1,22 +1,19 @@
 <em>[hétfőn kezdődik]</em>
-<em>[hétfőn kezdődik]</em>
-And the first thing that takes time is de&shy;cid&shy;ing upon a system of organization.
-If your computer is a mess, you&rsquo;re proba&shy;bly already aware of it.
-&#x2022; You can&rsquo;t find programs in the out-of-control list of programs in your Start Menu
-&#x2022; &ldquo;My Documents&rdquo; contains over 300 files and 60 folders, includ&shy;ing MP3s and digital photos
-It sounds heretical, but: Don&rsquo;t ever visit your &ldquo;My Documents&rdquo; folder!
-The reality is that there <span class="underlined">is</span> no per&shy;fect way of getting things organized.
-Hopefully some of these tips will work for you too, but please don&rsquo;t read this as any sort of &ldquo;right&rdquo; way to do it.
-&#x2022; Any given file that you&rsquo;re looking for may be in any one of four different sets of folders
------
+
 Is your desktop a paragon of neatness, or is it over&shy;flowing with so many icons that you&rsquo;re scared to look at it?
 <strong>Signs that Your Computer is Poorly Organized</strong>
+If your computer is a mess, you&rsquo;re proba&shy;bly already aware of it.
+&#x2022; &ldquo;My Documents&rdquo; contains over 300 files and 60 folders, includ&shy;ing MP3s and digital photos
+&#x2022; You can&rsquo;t find programs in the out-of-control list of programs in your Start Menu
 &#x2022; You save all your Word docu&shy;ments in one folder, all your spread&shy;sheets in a second folder, etc
+&#x2022; Any given file that you&rsquo;re looking for may be in any one of four different sets of folders
 The organization princi&shy;ples described in this article apply equally to all comput&shy;er systems.
 Everyone has their own fa&shy;vorite methodol&shy;ogy of organizing and filing, and it&rsquo;s all too easy to get into &ldquo;My Way is Better than Your Way&rdquo; arguments.
+The reality is that there <span class="underlined">is</span> no per&shy;fect way of getting things organized.
 When I wrote this article, I tried to keep a gener&shy;alist and objec&shy;tive viewpoint.
 I consider myself to be unusual&shy;ly well orga&shy;nized (to the point of obsession, truth be told), and I&rsquo;ve had 25 years expe&shy;rience in collec&shy;ting and organizing files on computers. So I&rsquo;ve got a lot to say on the subject.
 But the tips I have de&shy;scribed here are only <span class="underlined">one way</span> of doing it.
+Hopefully some of these tips will work for you too, but please don&rsquo;t read this as any sort of &ldquo;right&rdquo; way to do it.
 At the end of the article we&rsquo;ll be asking you, the reader, for your own organi&shy;zation tips.
 <strong>Why Bother Organizing At All?</strong>
 For some, the answer to this question is self-evident.
@@ -45,6 +42,7 @@ Being disorganized is simply un&shy;think&shy;able.
 Here we present our 40 best tips on how to get organized. Or, if you&rsquo;re already organized, to get better organized.
 <strong>Tip #1.  Choose Your Organization System Carefully</strong>
 The reason that most people are not or&shy;ga&shy;nized is that it takes time.
+And the first thing that takes time is de&shy;cid&shy;ing upon a system of organization.
 This is always a matter of per&shy;son&shy;al pref&shy;er&shy;ence, and is not something that a geek on a website can tell you.
 You should always choose your own system, based on how your own brain is organized (which makes the assumption that your brain is, in fact, organized).
 We can&rsquo;t instruct you, but we can make suggestions:
@@ -73,6 +71,7 @@ And every operating system has a different system!
 These folders usually don&rsquo;t fit within your or&shy;ga&shy;ni&shy;za&shy;tion&shy;al struc&shy;ture, so don&rsquo;t use them!
 In fact, don&rsquo;t even use the &ldquo;My Documents&rdquo; folder at all.
 Allow it to fill up with junk, and then simply ignore it.
+It sounds heretical, but: Don&rsquo;t ever visit your &ldquo;My Documents&rdquo; folder!
 Create your own file system from scratch!
 This way, all your files live on one drive, while all the op&shy;er&shy;at&shy;ing system and soft&shy;ware com&shy;po&shy;nent files live on the C: drive <span class="no-br">--</span> simply and elegantly separated.
 The benefits of that are profound.
