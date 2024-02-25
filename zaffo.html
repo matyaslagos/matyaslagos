@@ -106,7 +106,7 @@
 		color: rgb(239, 227, 225, 0.6); /*rgb(239, 227, 225, 0.5)*/
 		text-shadow: 0px 0px 0.4px #979797; /*0px 0px 0.3px #979797*/
 		position: absolute;
-		right: 3.3pt;
+		right: 2.7pt;
 		bottom: -10.7pt;
 	}
 	
@@ -177,7 +177,7 @@
                 // Split text into lines
                 const lines = text.split('\n');
                 // Get the current day of the year
-                const startingDate = startDate('2024-02-24');
+                const startingDate = startDate('2024-02-25');
                 const currentDate = new Date();
                 const millisecondsPerDay = 1000 * 60 * 60 * 24;
                 const daysPassed = Math.floor((currentDate - startingDate) / millisecondsPerDay);
@@ -187,9 +187,9 @@
                 const lineToDisplay = lines[lineIndex];
                 // Print the line into the body of the website
                 document.getElementById('quote').innerHTML = lineToDisplay;
-								// Add 1 to get the line number and display it as count
-								const lineNo = lineIndex + 1;
-								//document.getElementById('count').innerText = lineNo + "/172";
+								// (Not) add 1 to get the line number and display it as count
+								const lineNo = lineIndex;
+								document.getElementById('count').innerText = lineNo;
             })
             .catch(error => {
                 console.error('There was a problem with the fetch operation:', error);
@@ -201,8 +201,8 @@
 <div class="card has-bg bg-paper">
 	<div class="container">
   <p id="quote" class="card-text"></p>
-	<p id="count" class="counter"></p>
   </div>
+	<p id="count" class="counter"></p>
 </div>
 
 <div class="disclaimer">
