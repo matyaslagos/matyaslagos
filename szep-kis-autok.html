@@ -9,6 +9,7 @@
 <style>
 	img {
 		width: 100%;
+		transition-duration: 0.4s;
 	}
 	
 	.gallery {
@@ -52,11 +53,40 @@
 		color: rgb(246, 250, 132);
 		text-shadow: rgb(0, 0, 0, 0.5) 0 0 3px;
 	}
+	/*
+	img.half {
+		position: absolute;
+		transform: translate(-50%, -50%);
+		top: 50%;
+		left: 50%;
+		height: auto;
+		width: auto;
+		max-height: 80vh;
+		max-width: 80vw;
+		transform: scale(0.5);
+	}
+	
+	.hello {
+		width: 100%;
+		height: 100%;
+		margin-bottom: -20em;
+	}
+	*/
 </style>
+
+<script>
+	const images = document.querySelectorAll(".img");
+	images.forEach(image => {
+		image.addEventListener("click", () => {
+			image.classList.toggle("half");
+		});
+	});
+</script>
 
 </head>
 
 <body>
+	
 <div class="site-title"><a class="title-link" href="index.html">matyaslagos.net</a></div>
 
 <div class="page-title">Szép kis autók</div>
@@ -68,6 +98,10 @@
 		<div class="img-date">
 			2024-01-12
 		</div>
+	</div>
+	
+	<div class="hello">
+		<img src="https://i.ibb.co/JknkRKN/szka-21.png">
 	</div>
 	-->
 	<img src="https://i.ibb.co/JknkRKN/szka-21.png">
