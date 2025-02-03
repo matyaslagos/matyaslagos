@@ -15,9 +15,15 @@
       hyphens: auto;
     }
     .container {
-      max-width: 600px;
+      width: 90%; /* Default: 90% of viewport width */
+      max-width: 500px; /* Limit to 500px on larger screens */
       margin: 0 auto;
       padding: 20px;
+    }
+    @media (min-width: 600px) { /* Adjust breakpoint if needed */
+      .container {
+        width: 500px;
+      }
     }
     h1 {
       text-align: left;
@@ -59,7 +65,7 @@
     <img class="logo" src="https://live.staticflickr.com/65535/54305156504_c05b0105ba_b.jpg" alt="Logo">
     
     <h1>A műhelyről</h1>
-    <p>A találkozókon arról beszélünk hogy hogyan lehet konkrétan megvalósítani a <a href="https://en.wikipedia.org/wiki/Construction_grammar">konstrukciós nyelvtanos</a> elképzeléseket és értelmezhetően meghatározni a konstrukciós nyelvtanban használt fogalmakat (pl. <em>konstrukciók hálózata</em>, <em>analógia</em>, <em>emergálás</em>) úgy, hogy ki lehessen próbálni őket nyelvi adatokon.</p>
+    <p>A találkozókon arról beszélünk hogy hogyan lehet konkrétan megvalósítani a <a href="https://en.wikipedia.org/wiki/Construction_grammar">konstrukciós nyelvtanos</a> elképzeléseket (pl. egy konstrukciós hálózat felépülését, az analógiás viszonyok hatásait, a konstrukciók emergálását) úgy, hogy ki lehessen próbálni őket nyelvi adatokon.</p>
     <p>Minden találkozón valaki előadja az ötletét max. 45 percben, és közben és utána beszélgetünk róla. Jó ha az előadó kiemeli az ötletének a legérdekesebb bizonytalan részeit.</p>
     
     <h1>Következő találkozók</h1>
