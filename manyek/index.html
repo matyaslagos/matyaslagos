@@ -5,10 +5,11 @@
   <title>MANYEK</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@450&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
     body {
       font-family: Verdana, sans-serif;
       font-size: 16px;
-      color: #2C2C2D;
+      color: #3A3A3B;
       text-align: left;
       line-height: 1.25em;
       margin: 0;
@@ -20,15 +21,40 @@
       margin: 0 auto;
       padding: 20px;
     }
-    h1 {
+    .svg-logo {
+      width: 200px;
+      height: ;
+      margin: 1rem auto 0rem -0rem;
+      display: block;
+    }
+    .text-logo {
+      font-size: 2.3rem;
+      font-weight: normal;
+      font-family: "Trebuchet MS";
+      margin-top: 1.9rem;
+      margin-bottom: 0.1rem;
+      margin-left: 0.07rem;
+    }
+    .tracked-m {
+      letter-spacing: 0.1rem;
+    }
+    .subtitle {
+      font-size: 0.9rem;
+      font-family: "Andale Mono";
+      line-height: 1rem;
+      word-spacing: -0.2rem;
+    }
+    h2 {
+      font-family: "PT Sans", Verdana, sans-serif;
+      letter-spacing: 0.015rem;
       text-align: left;
-      font-size: 0.97em;
+      font-size: 1.05rem;
       font-weight: bold;
-      margin-top: 1.9em;
-      color: #363737;
+      margin-top: 1.8rem;
+      margin-bottom: 0.5rem;
     }
     p {
-      margin-top: 0.45em;
+      margin-top: 0.47rem;
       margin-bottom: 0;
     }
     .container p:first-child {
@@ -40,36 +66,21 @@
       display: block;
       margin: 30px auto 40px auto;
     }
+    img.top-hun-ren-nytk-logo {
+      width: 150px;
+      height: 23.7px;
+      margin: 0rem auto 0rem 0rem;
+      display: block;
+    }
     img.hun-ren-nytk-logo {
       width: 200px;
       height: 31.6px;
       margin: 3rem auto 4rem auto;
       display: block;
-      align: right;
     }
     .schedule-item {
       margin-top: 1em;
     }
-    /*
-    .time {
-      color: #b51c48;
-      font-size: 0.95em;
-      display: block;
-      letter-spacing: 0.065em;
-      font-family: "Source Code Pro", monospace;
-      font-weight: 450;
-    }
-    .place {
-      color: #888888;
-      letter-spacing: 0.3pt;
-      font-family: "Source Code Pro", monospace;
-      font-weight: 450;
-    }
-    .title {
-      font-style: italic;
-      display: block;
-    }
-    */
     .nytud-desktop {
       font-size: 0.95em;
       margin-top: -0.1em;
@@ -128,37 +139,46 @@
 </head>
 <body>
   <div class="container">
+    <!--
     <img class="logo" src="Assets/manyek-logo.png" alt="MANYEK logó">
-    
-    <h1>A műhelyről</h1>
+    <img class="top-hun-ren-nytk-logo" src="Assets/hun-ren-nytk-logo.png" alt="HUN-REN NYTK logó">
+    -->
+    <img class="svg-logo" src="Assets/manyek-logo.svg" alt="MANYEK logó">
+    <!--
+    <header>
+      <h1 class="text-logo"><span class="tracked-m">M</span>ANYEK</h1>
+      <p class="subtitle">Műhely az Analógiákról és<br> a Nyelvtani Konstrukciókról<p>
+    </header>
+    -->
+    <h2>A műhelyről</h2>
     <p>A találkozókon arról beszélünk hogy hogyan lehet konkrétan megvalósítani a <a href="https://en.wikipedia.org/wiki/Construction_grammar">konstrukciós nyelvtanos</a> elképzeléseket úgy, hogy ki lehessen próbálni őket nyelvi adatokon.</p>
     <p>Egy találkozón valaki előadja az ötletét max. 45 percben, és közben és utána beszélgetünk róla. Jó ha az előadó kiemeli az ötletének a legérdekesebb bizonytalan részeit.</p>
     
-    <h1>Következő találkozók</h1>
+    <h2>Következő találkozók</h2>
     <div class="schedule">
-      <table style="margin-top: 1rem; margin-left: -0.05rem">
+      <table style="margin-top: 0.8rem; margin-left: -0.05rem">
         <tr class="time-row"> <td> Február 25. 16:00 </td> </tr>
         <tr class="place-row"> <td style="line-height: 0.9rem; padding-bottom: 0.25rem"> Nyelvtudományi Kutatóközpont <span class="room"> 1. em. 110</span> </td> </tr>
         <tr class="presenter-row"> <td> Lagos Mátyás (NYTK) </td> </tr>
         <tr class="title-row"> <td> Mondatok nyelvtani elemzése rekurzív analógiakereséssel és más trükkökkel </td> </tr>
       </table>
-      <table style="margin-top: 1.2rem; margin-left: -0.05rem">
+      <table style="margin-top: 0.8rem; margin-left: -0.05rem">
         <tr class="time-row"> <td> Március </td> </tr>
         <tr class="presenter-row"> <td> Indig Balázs (ELTE IK) </td> </tr>
         <tr class="title-row"> <td> A főneves szerkezetek redukálása a mentális konstrukciók korpuszban való megtalálásához </td> </tr>
       </table>
-      <table style="margin-top: 1.2rem; margin-left: -0.05rem">
+      <table style="margin-top: 0.8rem; margin-left: -0.05rem">
         <tr class="time-row"> <td> Április </td> </tr>
         <tr class="presenter-row"> <td> Rebrus Péter (NYTK) </td> </tr>
         <tr class="title-row"> <td> A morfológiai mintázatok fraktálszerű természetéről és a paradigmacellák analógiás viszonyairól</td> </tr>
       </table>
     </div>
     
-    <h1>Kapcsolat</h1>
+    <h2>Kapcsolat</h2>
     <p>A találkozók helyének pontos neve és címe:<br> HUN-REN Nyelvtudományi Kutatóközpont, <a href="https://maps.app.goo.gl/yBxHQT2R15VB7mFZ7">1068 Budapest, Benczúr utca 33.</a></p>
     <p>Itt lehet jelentkezni előadónak vagy bármilyen kérdést vagy visszajelzést küldeni:</p>
     
-    <h1>Eddigi találkozók</h1>
+    <h2>Eddigi találkozók</h2>
     <p>(Még nem volt egy találkozó sem.)</p>
     
     <img class="hun-ren-nytk-logo" src="Assets/hun-ren-nytk-logo.png" alt="HUN-REN NYTK logó">
