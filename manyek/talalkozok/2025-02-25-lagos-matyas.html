@@ -5,8 +5,7 @@
   <title>MANYEK</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@450&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
     body {
       font-family: Verdana, sans-serif;
@@ -28,6 +27,7 @@
       height: 68.88px;
       margin: 1rem auto 0rem 0rem;
       display: block;
+      opacity: 0.7;
     }
     .text-logo {
       font-size: 2.3rem;
@@ -163,8 +163,6 @@
       font-size: 1rem;
       font-weight: 450;
     }
-    .presenter-row {
-    }
     .title-row {
       font-style: italic;
     }
@@ -181,6 +179,9 @@
     table, th, td {
     border: 0px solid black;
     border-collapse: collapse;
+    }
+    .single-schedule {
+      margin-top: 2rem;
     }
     @media (min-width: 550px) {
       .container {
@@ -200,39 +201,20 @@
     
     <img class="svg-logo" src="assets/manyek-logo.png" alt="MANYEK logó">
     
-    <h2>A műhelyről</h2>
-    <p>A találkozókon arról beszélünk hogy hogyan lehet konkrétan megvalósítani a <a href="https://en.wikipedia.org/wiki/Construction_grammar">konstrukciós nyelvtanos</a> elképzeléseket úgy, hogy ki lehessen próbálni őket nyelvi adatokon.</p>
-    <p>Egy találkozón valaki előadja az ötletét max. 45 percben, és közben és utána beszélgetünk róla. Jó ha az előadó kiemeli az ötletének a legérdekesebb bizonytalan részeit.</p>
-    
-    <h2>Következő találkozók</h2>
-    <div class="schedule">
-      <table style="margin-top: 0.8rem; margin-left: -0.05rem; width: 99%">
-        <tr> <td class="time"> Február 25. 16:00 </td> <td class="link-to-details"><a class="link-text" href="https://nytud.hu/en">részletek ➚</a></td> </tr>
+    <div class="single-schedule">
+      <table style="margin-top: 0.8rem; margin-left: -0.05rem; width: 100%">
+        <tr> <td class="time"> Február 25. 16:00 </td> <td class="link-to-details"></td> </tr>
         <tr class="place-row"> <td colspan="2" style="line-height: 0.95rem; padding-bottom: 0.25rem"> <span class="nytk-name-full"> Nyelvtudományi Kutatóközpont <span class="room"> 1. em. 110</span></span> <span class="nytk-name-short"> Nytud. Kutközp. <span class="room"> 1. em. 110</span></span> </td> </tr>
-        <tr class="presenter-row"> <td colspan="2"> Lagos Mátyás (NYTK) </td> </tr>
-        <tr class="title-row"> <td colspan="2"> Mondatok nyelvtani elemzése rekurzív analógiakereséssel </td> </tr>
-      </table>
-      <table style="margin-top: 0.8rem; margin-left: -0.05rem">
-        <tr> <td class="time"> Március </td> </tr>
-        <tr class="presenter-row"> <td> Indig Balázs (ELTE IK) </td> </tr>
-        <tr class="title-row"> <td> Mentális konstrukciók adatorientált azonosítása korpuszban a Mozaik módszer és kapcsolódó eljárások segítségével </td> </tr>
-      </table>
-      <table style="margin-top: 0.8rem; margin-left: -0.05rem">
-        <tr> <td class="time"> Április </td> </tr>
-        <tr class="presenter-row"> <td> Rebrus Péter (NYTK) </td> </tr>
-        <tr class="title-row"> <td> TBD </td> </tr>
+        <tr class="presenter-row"> <td colspan="2" style="padding-top: 0.2rem"> Lagos Mátyás (NYTK) </td> </tr>
+        <tr class="title-row"> <td colspan="2" style="padding-top: 0.1rem"> Mondatok nyelvtani elemzése rekurzív analógiakereséssel </td> </tr>
       </table>
     </div>
+    <h2>Absztrakt</h2>
     
-    <h2>Kapcsolat</h2>
-    <p>A találkozók helyének pontos neve és címe:<br> HUN-REN Nyelvtudományi Kutatóközpont, <a href="https://maps.app.goo.gl/yBxHQT2R15VB7mFZ7">1068 Budapest, Benczúr utca 33.</a></p>
-    <p>Itt lehet jelentkezni előadónak vagy bármilyen kérdést vagy visszajelzést küldeni:</p>
-    
-    <h2>Eddigi találkozók</h2>
-    <p>(Még nem volt egy találkozó sem.)</p>
-    
+    <!--
     <img class="hun-ren-nytk-logo" src="Assets/hun-ren-nytk-logo.png" alt="HUN-REN NYTK logó">
     <img class="elte-ik-logo" src="Assets/elte-ik-logo.png" alt="ELTE IK logó">
+    -->
   </div>
 </body>
 </html>
