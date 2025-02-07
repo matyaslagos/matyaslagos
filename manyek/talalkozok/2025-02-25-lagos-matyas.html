@@ -151,17 +151,17 @@
     }
     .time {
       text-transform: uppercase;
-      color: #b51c48;
+      color: #9f1a40;
       font-size: 0.95rem;
       letter-spacing: 0.065rem;
       font-family: "Source Code Pro", monospace;
       font-weight: 450;
     }
     .place-row {
-      color: #797979;
+      color: #5e5e5f;
       font-family: "Source Code Pro", monospace;
       font-size: 1rem;
-      font-weight: 450;
+      font-weight: 400;
     }
     .title-row {
       font-style: italic;
@@ -182,6 +182,14 @@
     }
     .single-schedule {
       margin-top: 2rem;
+    }
+    .keywords {
+      font-family: "Source Sans 3", Verdana, sans-serif;
+      text-align: left;
+      font-size: 1.15rem;
+      font-weight: 550;
+      margin-top: 1.8rem;
+      margin-bottom: 0.5rem;
     }
     @media (min-width: 550px) {
       .container {
@@ -205,16 +213,25 @@
       <table style="margin-top: 0.8rem; margin-left: -0.05rem; width: 100%">
         <tr> <td class="time"> Február 25. 16:00 </td> <td class="link-to-details"></td> </tr>
         <tr class="place-row"> <td colspan="2" style="line-height: 0.95rem; padding-bottom: 0.25rem"> <span class="nytk-name-full"> Nyelvtudományi Kutatóközpont <span class="room"> 1. em. 110</span></span> <span class="nytk-name-short"> Nytud. Kutközp. <span class="room"> 1. em. 110</span></span> </td> </tr>
-        <tr class="presenter-row"> <td colspan="2" style="padding-top: 0.2rem"> Lagos Mátyás (NYTK) </td> </tr>
-        <tr class="title-row"> <td colspan="2" style="padding-top: 0.1rem"> Mondatok nyelvtani elemzése rekurzív analógiakereséssel </td> </tr>
+        <tr class="presenter-row"> <td colspan="2" style="padding-top: 1rem; font-size: 1.025rem"> Lagos Mátyás (NYTK) </td> </tr>
+        <tr class="title-row"> <td colspan="2" style="padding-top: 0.2rem; font-size: 1.025rem"> Mondatok nyelvtani elemzése rekurzív analógiakereséssel </td> </tr>
       </table>
     </div>
-    <h2>Absztrakt</h2>
+    <h2 style="margin-top: 1.2rem"> Absztrakt </h2>
+    <p style="hyphens: manual"> This paper highlights theoretical issues in construction grammar and presents a simple computational language model as a preliminary solution to these issues. The speciﬁc issues dealt with are the lack of explicit deﬁnition of syntactic categories and the lack of explicit proposals regarding how constructions can be learned from linguistic experience. The proposed language model, called the “analogical path model”, learns two-word syntactic patterns from sentences by ﬁnding distributional analogies between word pairs. The theoretical relevance and implications of the analogical path model are discussed at the end of the paper.  </p>
     
-    <!--
+    <p style="margin-top: 1rem"><span class="keywords">Kulcsszavak:</span>  <em>construction grammar, distributional learning, analogy, language model, word classes</em></p>
+    
+    <h2>Az előadó más munkái</h2>
+    
+    <p>Lagos, Mátyás (2024): <em><a href="https://doi.org/10.1556/2062.2024.00666">A rudimentary analogy-based model of how syntactic constructions emerge from linguistic experience</a></em>. Acta Linguistica Academica 71, pp. 67-86.</p>
+    
+    <h2>Az előadó által ajánlott irodalom</h2>
+    
+    <p>Hofstadter, Douglas (2001): <em><a href="https://worrydream.com/refs/Hofstadter_2001_-_Analogy_as_the_Core_of_Cognition.pdf">Analogy as the core of cognition</a></em>.</p>
+    
     <img class="hun-ren-nytk-logo" src="Assets/hun-ren-nytk-logo.png" alt="HUN-REN NYTK logó">
     <img class="elte-ik-logo" src="Assets/elte-ik-logo.png" alt="ELTE IK logó">
-    -->
   </div>
 </body>
 </html>
