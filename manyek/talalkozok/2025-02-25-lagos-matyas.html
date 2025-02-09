@@ -217,6 +217,11 @@
       margin-top: 1.8rem;
       margin-bottom: 0.5rem;
     }
+    .abstract {
+    }
+    .rec-literature {
+      hyphens: manual;
+    }
     @media (min-width: 550px) {
       .container {
         width: 500px;
@@ -226,6 +231,9 @@
       }
       .nytk-name-short {
         display: none;
+      }
+      .abstract {
+        hyphens: manual;
       }
     }
   </style>
@@ -245,7 +253,9 @@
         <tr class="place-row"> <td colspan="2" style="line-height: 0.95; padding-bottom: 0.25rem"> 1068 Budapest, Benczúr utca 33.</td> </tr>
       </table>
     </div>
+    
     <h2 style="margin-top: 1.2rem"> Absztrakt </h2>
+    <div class="abstact">
     <p> Vegyünk egy (annotálatlan) korpuszt és egy olyan mondatot ami nem szerepel ebben a korpuszban. Az előadás arról szól hogy hogyan lehet megtalálni a korpuszban az ehhez az új mondathoz hasonló nyelvtani szerkezetű mondatokat. A módszerem megpróbálja minden lehetséges módon felbontani az új mondatot két összetevőre, és ezekre az összetevőkre keres rekurzívan (tehát őket is felbontva összetevőkre stb.) olyan nyelvtanilag analóg frázisokat amik előfordultak a korpuszban. </p>
     <p> Például: ha a <em>my cat jumped on the table</em> mondat nem fordult elő a korpuszban (sőt, egy bigramja sem fordult elő a korpuszban), akkor a módszernek meg kéne találnia
       <ul class="inline-list">
@@ -259,13 +269,17 @@
     
     <p style="margin-top: 1rem"><span class="keywords">Kulcsszavak:</span>  <em>konstrukciós nyelvtan, analógiás következtetés, disztribúciós tanulás, nyelvmodellek</em></p>
     
+    </div>
+    
     <h2>Az előadó által ajánlott irodalom</h2>
     
+    <div class="rec-literature">
     <p>Hofstadter, Douglas (2001): <em><a href="https://worrydream.com/refs/Hofstadter_2001_-_Analogy_as_the_Core_of_Cognition.pdf">Analogy as the core of cognition</a></em></p>
     
     <p>Lagos, Mátyás (2024): <em><a href="https://doi.org/10.1556/2062.2024.00666">A rudimentary analogy-based model of how syntactic constructions emerge from linguistic experience</a></em></p>
     
     <p>Perry, Sarah (2018): <em><a href="https://www.ribbonfarm.com/2018/12/07/something-runs-through-the-whole-thread/">Something runs through the whole thread<a></em></p>
+    </div>
     
     <img class="hun-ren-nytk-logo" src="https://live.staticflickr.com/65535/54316718871_0fd9ccee5e_o.png" alt="HUN-REN NYTK logó">
     <img class="elte-ik-logo" src="https://live.staticflickr.com/65535/54316718846_1f281a0326_o.png" alt="ELTE IK logó">
