@@ -156,14 +156,14 @@
     }
     .time {
       text-transform: uppercase;
-      color: #94364c;
+      color: #ae5268; /* #94364c */
       font-size: 0.95rem;
       letter-spacing: 0.065rem;
       font-family: "Source Code Pro", monospace;
       font-weight: 450;
     }
     .place-row {
-      color: #5e5e5f;
+      color: #797979;
       font-family: "Source Code Pro", monospace;
       font-size: 1rem;
       font-weight: 425;
@@ -200,6 +200,14 @@
     }
     .single-schedule {
       margin-top: 2rem;
+    }
+    .inline-list {
+      margin-top: 0.15rem;
+      margin-bottom: 0.15rem;
+      margin-left: -0.5rem;
+    }
+    li:not(inline-list:first-child) {
+      margin-top: 0.075rem;
     }
     .keywords {
       font-family: "Source Sans 3", Verdana, sans-serif;
@@ -238,9 +246,18 @@
       </table>
     </div>
     <h2 style="margin-top: 1.2rem"> Absztrakt </h2>
-    <p> This paper highlights theoretical issues in construction grammar and presents a simple computational language model as a preliminary solution to these issues. The speciﬁc issues dealt with are the lack of explicit deﬁnition of syntactic categories and the lack of explicit proposals regarding how constructions can be learned from linguistic experience. The proposed language model, called the “analogical path model”, learns two-word syntactic patterns from sentences by ﬁnding distributional analogies between word pairs. The theoretical relevance and implications of the analogical path model are discussed at the end of the paper.  </p>
+    <p> Vegyünk egy (annotálatlan) korpuszt és egy olyan mondatot ami nem szerepel ebben a korpuszban. Az előadás arról szól hogy hogyan lehet megtalálni a korpuszban az ehhez az új mondathoz hasonló nyelvtani szerkezetű mondatokat. A módszerem megpróbálja minden lehetséges módon felbontani az új mondatot két összetevőre, és ezekre az összetevőkre keres rekurzívan (tehát őket is felbontva összetevőkre stb.) olyan nyelvtanilag analóg frázisokat amik előfordultak a korpuszban. </p>
+    <p> Például: ha a <em>my cat jumped on the table</em> mondat nem fordult elő a korpuszban (sőt, egy bigramja sem fordult elő a korpuszban), akkor a módszernek meg kéne találnia
+      <ul class="inline-list">
+        <li> egy <em>my cat</em>-re analóg frázist ami előfordult a korpuszban, pl. a <em>her dog</em>-ot, és </li>
+        <li> egy <em>jumped on the table</em>-re analóg frázist ami előfordult a korpuszban, pl. a <em>ran to John</em>-t, </li>
+      </ul>
+    és ennek a két analóg frázisnak az eloszlását megvizsgálva rá kellene jönnie hogy valamennyire nyelvtanilag jólformált az eredeti mondat.
+    </p>
     
-    <p style="margin-top: 1rem"><span class="keywords">Kulcsszavak:</span>  <em>construction grammar, distributional learning, analogy, language model, word classes</em></p>
+    <p> Egyelőre nem működik olyan jól ez a módszer, de néha talál érdekes analógiákat. Az előadásban elmondom részletesen hogy hogyan keresi az analógiákat és hogy milyen változtatásokon gondolkozok. </p>
+    
+    <p style="margin-top: 1rem"><span class="keywords">Kulcsszavak:</span>  <em>konstrukciós nyelvtan, analógiás következtetés, disztribúciós tanulás, nyelvmodellek</em></p>
     
     <h2>Az előadó által ajánlott irodalom</h2>
     
