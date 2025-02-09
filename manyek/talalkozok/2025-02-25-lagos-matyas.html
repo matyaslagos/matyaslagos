@@ -218,6 +218,7 @@
       margin-bottom: 0.5rem;
     }
     .abstract {
+      hyphens: none;
     }
     .rec-literature {
       hyphens: manual;
@@ -236,7 +237,7 @@
         display: none;
       }
       .abstract {
-        hyphens: manual;
+        hyphens: auto;
       }
     }
   </style>
@@ -258,7 +259,7 @@
     </div>
     
     <h2 style="margin-top: 1.2rem"> Absztrakt </h2>
-    <div class="abstact">
+    <div class="abstract">
     <p> Vegyünk egy (annotálatlan) korpuszt és egy olyan mondatot ami nem szerepel ebben a korpuszban. Az előadás arról szól hogy hogyan lehet megtalálni a korpuszban az ehhez az új mondathoz hasonló nyelvtani szerkezetű mondatokat. A módszerem megpróbálja minden lehetséges módon felbontani az új mondatot két összetevőre, és ezekre az összetevőkre keres rekurzívan (tehát őket is felbontva összetevőkre stb.) olyan nyelvtanilag analóg frázisokat amik előfordultak a korpuszban. </p>
     <p> Például: ha a <em>my cat jumped on the table</em> mondat nem fordult elő a korpuszban (sőt, egy bigramja sem fordult elő a korpuszban), akkor a módszernek meg kéne találnia
       <ul class="inline-list">
@@ -276,7 +277,7 @@
     
     <h2>Az előadó által ajánlott irodalom</h2>
     
-    <div class="rec-literature">
+    <div class="rec-literature" lang="en" style="hyphens: auto">
     <p>Hofstadter, Douglas (2001): <em><a href="https://worrydream.com/refs/Hofstadter_2001_-_Analogy_as_the_Core_of_Cognition.pdf">Analogy as the core of cognition</a></em></p>
     
     <p>Lagos, Mátyás (2024): <em><a href="https://doi.org/10.1556/2062.2024.00666">A rudimentary analogy-based model of how syntactic constructions emerge from linguistic experience</a></em></p>
